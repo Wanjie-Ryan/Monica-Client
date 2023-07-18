@@ -11,10 +11,138 @@
 }
 
 .inner-nav{
-
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap:5rem; */
     width:90%;
     height:2cm;
     margin-left:auto;
     margin-right:auto;
    
 }
+
+.site-logo{
+
+    width:350px;
+    height:1.5cm;
+    margin-top: 10px; 
+    
+}
+
+  
+  .img-logo {
+
+    display: flex;
+
+  }
+  
+  .logo {
+
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    object-fit:cover;
+  }
+
+  /* STYLES FOR FLIPPING THE BOX */
+
+  .flip-box {
+    background-color: transparent;
+    width: 200px;
+    height: 100px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    /* background-color: #f1b409; */
+    cursor:pointer;
+  }
+  
+  .flip-box-inner {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+  }
+  
+  .flip-box-inner * {
+
+    display: flex;
+    margin-top: 4px;
+
+  }
+  
+  .flip-box:hover .flip-box-inner {
+
+    transform: rotateY(180deg);
+
+  }
+  
+  .flip-box-front,
+  .flip-box-back {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+  }
+  
+  .flip-box-back {
+
+    font-weight: bold;
+    transform: rotateY(180deg);
+
+  }
+  
+  .flip-box-front p {
+
+    color: #693d56;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 15px;
+
+  }
+  
+  .flip-box-back p {
+
+    font-size: 16px;
+    color: #693d56;
+    font-weight: bolder;
+
+  }
+
+.nav-details{
+
+    width:600px;
+    
+}
+
+.nav-links{
+
+    display:flex;
+    flex-direction:row;
+    gap:26px;
+    margin-top: 10px; 
+    font-weight:600;
+}
+
+.nav-p{
+
+    color:#693d56;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.icon{
+
+    color:#693d56;
+    font-size:20px;
+    cursor: pointer;
+}
+  
