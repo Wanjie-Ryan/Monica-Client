@@ -129,7 +129,7 @@ function Navbar() {
                     <hr></hr>
                     <Link to ='/events'><p className ='side-links'>Events</p></Link>
                     <hr></hr>
-                    <Link to ='gallery'><p className ='side-links'>Gallery</p></Link>
+                    <Link to ='/gallery'><p className ='side-links'>Gallery</p></Link>
                     <hr></hr>
                     <p className ='side-links'>Become a Member</p>
                     <hr></hr>
