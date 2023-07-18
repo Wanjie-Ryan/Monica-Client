@@ -2,7 +2,7 @@ import React from 'react'
 import './nav.css'
 import {Link} from 'react-router-dom'
 import SiteLogo from '../../Assets/favicon.jpg'
-import {BiHome, BiSolidContact} from 'react-icons/bi'
+import {BiHome, BiSolidContact,BiMenu} from 'react-icons/bi'
 import {FcGallery} from 'react-icons/fc'
 import {MdOutlineRememberMe} from 'react-icons/md'
 import {CgProfile} from 'react-icons/cg'
@@ -60,6 +60,8 @@ function Navbar() {
                         <p className='nav-p'>Gallery</p>
                         <p className='nav-p'>Become a Member</p>
                         <CgProfile title='Profile' className='icon'/>
+                        <BiMenu className='icon-menu'/>
+
 
 
                     </div>
@@ -124,6 +126,7 @@ function Navbar() {
                     <p className ='side-links'>Become a Member</p>
                     <hr></hr>
                     <CgProfile title='Profile'  id ='side-links'/>
+
                     
 
                 </div>

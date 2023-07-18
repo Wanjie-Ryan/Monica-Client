@@ -147,6 +147,15 @@
     cursor: pointer;
 }
 
+.icon-menu{
+
+    color:#693d56;
+    font-size:20px;
+    cursor: pointer;
+    display:none;
+
+}
+
 
 /* STYLES FOR SIDEBAR */
 
@@ -159,6 +168,7 @@
     left:0;
     height:100%;
     z-index: 102;
+    box-shadow: 0 2px 4px rgba(105, 61, 86, 0.7);
 
 }
 
