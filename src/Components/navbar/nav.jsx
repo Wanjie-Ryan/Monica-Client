@@ -113,8 +113,19 @@ function Navbar() {
 
                 <div className="side-details">
 
-
+                    <p className ='side-links'>Home</p>
+                    <hr></hr>
+                    <p className ='side-links'>Contact</p>
+                    <hr></hr>
+                    <p className ='side-links'>Events</p>
+                    <hr></hr>
+                    <p className ='side-links'>Gallery</p>
+                    <hr></hr>
+                    <p className ='side-links'>Become a Member</p>
+                    <hr></hr>
+                    <CgProfile title='Profile'  id ='side-links'/>
                     
+
                 </div>
 
 
