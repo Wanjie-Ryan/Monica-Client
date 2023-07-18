@@ -169,8 +169,10 @@
     height:100%;
     z-index: 102;
     box-shadow: 0 2px 4px rgba(105, 61, 86, 0.7);
-
+    
 }
+
+
 
 .main-side{
 
@@ -235,5 +237,34 @@
     margin-top: 20px;
 
 }
+
+@media screen and (max-width:768px){
+
+    .nav-links .remove{
+
+        display:none;
+    }
+
+    
+
+    .icon-menu{
+
+        display:block;
+        /* margin-top: 5px; */
+    }
+
+    .side{
+
+        width:100%;
+    }
+
+    .logo{
+
+        margin-left:30px;
+    }
+
+}
+
+
   
   

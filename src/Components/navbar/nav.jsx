@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './nav.css'
 import {Link} from 'react-router-dom'
 import SiteLogo from '../../Assets/favicon.jpg'
@@ -11,6 +11,13 @@ import {AiFillCloseCircle} from 'react-icons/ai'
 
 
 function Navbar() {
+
+    const [showNav, setshowNav] = useState(false)
+
+    const handleNav = ()=>{
+
+        setshowNav(!showNav)
+    }
 
 
   return (
@@ -55,13 +62,12 @@ function Navbar() {
                     <div className="nav-links">
 
                         <p className='nav-p'>Home</p>
-                        <p className='nav-p'>Contact</p>
-                        <p className ='nav-p'>Events</p>
-                        <p className='nav-p'>Gallery</p>
-                        <p className='nav-p'>Become a Member</p>
-                        <CgProfile title='Profile' className='icon'/>
-                        <BiMenu className='icon-menu'/>
-
+                        <p className='nav-p remove'>Contact</p>
+                        <p className ='nav-p remove'>Events</p>
+                        <p className='nav-p remove'>Gallery</p>
+                        <p className='nav-p remove'>Become a Member</p>
+                        <CgProfile title='Profile' className='icon remove'/>
+                        <BiMenu className='icon-menu' onClick ={handleNav}/>
 
 
                     </div>
@@ -74,13 +80,15 @@ function Navbar() {
 
         </nav>
 
-        <aside className ='side'>
+        { showNav && (
+        <aside className='side'>
 
             <div className="close-btn">
 
                 <AiFillCloseCircle
 
                  className="close"
+                 onClick ={handleNav}
                 
                 />
 
@@ -127,27 +135,13 @@ function Navbar() {
                     <hr></hr>
                     <CgProfile title='Profile'  id ='side-links'/>
 
-                    
-
                 </div>
-
-
-                
-
-
-
-
-
-
-
+   
             </div>
 
-
-
-
-
-
         </aside>
+        
+        )}
 
 
     
