@@ -6,6 +6,8 @@ import {BiHome, BiSolidContact} from 'react-icons/bi'
 import {FcGallery} from 'react-icons/fc'
 import {MdOutlineRememberMe} from 'react-icons/md'
 import {CgProfile} from 'react-icons/cg'
+import {AiFillCloseCircle} from 'react-icons/ai'
+
 
 
 function Navbar() {
@@ -70,9 +72,65 @@ function Navbar() {
 
         </nav>
 
-        <aside>
+        <aside className ='side'>
 
-            
+            <div className="close-btn">
+
+                <AiFillCloseCircle
+
+                 className="close"
+                
+                />
+
+            </div>
+
+            <div className="main-side">
+
+                <div className="site-logo side-logo">
+
+                    <div className="flip-box img-logo">
+
+                        <div className="flip-box-inner">
+
+                            <div className="flip-box-front">
+
+                                <img className="logo" src={SiteLogo} alt="logo" />
+
+                            </div> 
+
+                            <div className="flip-box-back">
+
+                                <p>Be Equipped For Ministry </p>
+                                
+                            </div> 
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div className="side-details">
+
+
+                    
+                </div>
+
+
+                
+
+
+
+
+
+
+
+            </div>
+
+
+
+
 
 
         </aside>
