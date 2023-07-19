@@ -61,10 +61,10 @@ function Navbar() {
 
                     <div className="nav-links">
 
-                        <p className='nav-p'>Home</p>
-                        <p className='nav-p remove'>Contact</p>
-                        <p className ='nav-p remove'>Events</p>
-                        <p className='nav-p remove'>Gallery</p>
+                        <Link to ='/' className='nav-p'><p className='nav-p'>Home</p></Link>
+                        <Link to ='/contact' className='nav-p'><p className='nav-p remove'>Contact</p></Link>
+                        <Link to ='/events' className='nav-p'><p className ='nav-p remove'>Events</p></Link>
+                        <Link to ='/gallery' className='nav-p'><p className='nav-p remove'>Gallery</p></Link>
                         <p className='nav-p remove'>Become a Member</p>
                         <CgProfile title='Profile' className='icon remove'/>
                         <BiMenu className='icon-menu' onClick ={handleNav}/>
@@ -123,11 +123,11 @@ function Navbar() {
 
                 <div className="side-details">
 
-                    <Link to ='/'><p className ='side-links'>Home</p></Link>
+                    <Link to ="/"><p className ='side-links'>Home</p></Link>
                     <hr></hr>
                     <Link to ='/contact'><p className ='side-links'>Contact</p></Link>
                     <hr></hr>
-                    <Link to ='/events'><p className ='side-links'>Events</p></Link>
+                    <p className ='side-links'>Events</p>
                     <hr></hr>
                     <Link to ='/gallery'><p className ='side-links'>Gallery</p></Link>
                     <hr></hr>

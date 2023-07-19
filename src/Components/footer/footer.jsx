@@ -72,11 +72,10 @@ function Footer() {
 
                         <p className ='contact-title'> Quick Links </p>
 
-                        <p>Home</p>
-                        <p>Contact</p>
-                        <p>Events</p>
-                        <p>Gallery</p>
-                        <p>Membership</p>
+                        <Link to ='/' className ='footer-links-p'><p>Home</p></Link>
+                        <Link to ='/contact' className ='footer-links-p'><p>Contact</p></Link>
+                        <Link to ='/events' className ='footer-links-p'><p>Events</p></Link>
+                        <Link to ='/gallery' className ='footer-links-p'><p>Gallery</p></Link>
 
 
                     </div>
