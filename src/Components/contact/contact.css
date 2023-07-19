@@ -63,3 +63,73 @@
     100% { transform: translateX(0); }
 
   }
+
+  .contact-box{
+
+    width:45%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .name{
+
+    margin-bottom:40px;
+  }
+
+  input{
+    margin-left:10px;
+    width: 230px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: border-color 0.3s ease-in-out;
+  
+}
+
+input:focus{
+    
+    outline: none;
+    border-color:#693d56;
+      
+}
+
+input::placeholder {
+    font-weight: bold;
+  }
+
+  textarea{
+
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: border-color 0.3s ease-in-out;
+    /* width: 230px; */
+
+  }
+
+  textarea:focus{
+
+    outline: none;
+    border-color:#693d56;
+
+  }
+
+  .submission-btn {
+    width: 230px;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #693d56;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .submission-btn:hover{
+
+        background-color: #59372c;
+    
+  }

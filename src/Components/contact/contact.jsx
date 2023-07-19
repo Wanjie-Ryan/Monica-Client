@@ -59,23 +59,23 @@ function Contact() {
 
             <div className ='name'>
 
-              <label>Name</label>
-              <input className ='input-name' required placeholder='Enter your name'/>
+              <label>Name:</label>
+              <input className ='input-name' required placeholder='Enter your name*'/>
 
 
             </div>
 
             <div className ='name'>
 
-              <label>Email</label>
-              <input className ='input-name' required placeholder='Enter your email'/>
+              <label>Email:</label>
+              <input className ='input-name' required placeholder='Enter your email*'/>
 
 
             </div>
 
             <div className ='name'>
 
-              <label>Your message</label>
+              <label>Your message:</label>
 
               <textarea className="myTextArea" name="myText" rows="4" cols="50">
 
@@ -86,7 +86,7 @@ function Contact() {
 
             </div>
 
-            <button type='submit'>Submit</button>
+            <button type='submit' className='submission-btn'>Submit</button>
 
 
 
