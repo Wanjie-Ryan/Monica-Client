@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../Components/navbar/nav'
 import Contact from '../../Components/contact/contact'
-// import Footer from '../../Components/footer/footer'
+import Footer from '../../Components/footer/footer'
 
 function ContactPages() {
 
@@ -13,7 +13,7 @@ function ContactPages() {
 
         <Navbar/>
         <Contact/>
-        {/* <Footer/> */}
+        <Footer/>
 
     
     

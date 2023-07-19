@@ -1,0 +1,48 @@
+.intro-contact{
+
+    width:100%;
+    background-color:#de9973;
+    padding:10px;
+}
+
+.main-contact{
+
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+
+.maps{
+
+    width:45%;
+    
+}
+
+.church-maps{
+
+    width:404px;
+}
+
+.footer-icons-link{
+
+    text-decoration:none;
+
+}
+
+.footer-icons-link-call{
+
+    text-decoration:none;
+    color:#693d56;
+
+}
+
+.footer-icons{
+
+    color:#693d56;
+    font-size:22px;
+    margin-left:17px;
+}
