@@ -59,6 +59,22 @@
     margin-left:17px;
 }
 
+.footer-icons:hover{
+  
+    color:#59372c;
+    animation: shake 0.5s infinite;
+    
+  }
+  
+  @keyframes shake {
+
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(-5deg); }
+    75% { transform: translateX(5px) rotate(5deg); }
+    100% { transform: translateX(0); }
+
+  }
+
 .footer-dev{
 
     font-size:18px;

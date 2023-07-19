@@ -57,6 +57,37 @@ function Contact() {
 
           <form className="contact-box">
 
+            <div className ='name'>
+
+              <label>Name</label>
+              <input className ='input-name' required placeholder='Enter your name'/>
+
+
+            </div>
+
+            <div className ='name'>
+
+              <label>Email</label>
+              <input className ='input-name' required placeholder='Enter your email'/>
+
+
+            </div>
+
+            <div className ='name'>
+
+              <label>Your message</label>
+
+              <textarea className="myTextArea" name="myText" rows="4" cols="50">
+
+                Type your message here
+
+              </textarea>
+
+
+            </div>
+
+            <button type='submit'>Submit</button>
+
 
 
 
