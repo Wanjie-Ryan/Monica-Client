@@ -1,0 +1,25 @@
+.home{
+
+    width:100%;
+}
+
+.home-intro{
+
+    margin-top:30px;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.img-caro{
+
+    /* width:300px; */
+    width:100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(105, 61, 86, 0.3);
+    cursor: pointer;
+}
+

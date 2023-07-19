@@ -1,5 +1,10 @@
 import React from 'react'
 import './home.css'
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+
 
 
 function Home() {
@@ -10,34 +15,34 @@ function Home() {
     {
 
       id:1,
-      image:'../../Assets//homeImages/vicar.jpg',
+      image:require('../../Assets/homeImages/vicar.jpg'),
       message: 'Our Leader'
     }, 
 
     {
       id:2,
-      image: '../../Assets/homeImages/Team.jpg',
+      image: require('../../Assets/homeImages/Team.jpg'),
       message:'Our Able Team'
     },
 
     {
 
       id:3,
-      image:'../../Assets/homeImages/view.jpg',
+      image:require('../../Assets/homeImages/view.jpg'),
       message:`ACK St.Monica's church Mugumo-ini`
 
     },
 
     {
       id:4,
-      image:'../../Assets/homeImages/view2.jpg',
+      image:require('../../Assets/homeImages/view 2.jpg'),
       message:`ACK St.Monica's church Mugumo-ini at night`
     },
 
     {
 
       id:5,
-      image:'../../Assets/homeImages/Congregation1.jpg',
+      image:require('../../Assets/homeImages/Congregation1.jpg'),
       message:'Our congregation and worshippers'
 
     },
@@ -45,7 +50,7 @@ function Home() {
     {
 
       id:6,
-      image:'../../Assets/homeImages/worship.jpg',
+      image:require('../../Assets/homeImages/worship.jpg'),
       message:'Worship Team'
 
     },
@@ -53,7 +58,7 @@ function Home() {
     {
 
       id:7,
-      image:'../../Assets/homeImages/drumist.jpg',
+      image:require('../../Assets/homeImages/drumist.jpg'),
       message:'Fully Equipped musical instruments'
 
     },
@@ -61,7 +66,7 @@ function Home() {
     {
 
       id:8,
-      image:'../../Assets/homeImages/men2.jpg',
+      image:require('../../Assets/homeImages/men2.jpg'),
       message:'The men of St.Monica'
 
     },
@@ -69,7 +74,7 @@ function Home() {
     {
 
       id:9,
-      image:'../../Assets/homeImages/women.jpg',
+      image:require('../../Assets/homeImages/women.jpg'),
       message:'The women of St.Monica'
 
     },
@@ -77,7 +82,7 @@ function Home() {
     {
 
       id:10,
-      image:'../../Assets/homeImages/sunday school.jpg',
+      image:require('../../Assets/homeImages/sunday school.jpg'),
       message:`St.Monica's Sunday School`
 
     },
@@ -85,7 +90,7 @@ function Home() {
     {
 
       id:11,
-      image:'../../Assets/homeImages/kids fellowship.jpg',
+      image:require('../../Assets/homeImages/kids fellowship.jpg'),
       message:`St.Monica's Kids`
 
     },
@@ -93,7 +98,7 @@ function Home() {
     {
 
       id:12,
-      image:'../../Assets/homeImages/awards.jpg',
+      image:require('../../Assets/homeImages/awards.jpg'),
       message:'What do you know, we also win awards'
 
     },
@@ -113,6 +118,42 @@ function Home() {
         <section className ='home'>
 
           <div className="home-intro">
+
+            {/* <Carousel showThumbs={false}>
+
+            {imageData.map((item) => (
+              <div key={item.id}>
+                <img src={item.image} alt={item.message}  />
+                <p className="legend">{item.message}</p>
+              </div>
+            ))}
+
+            </Carousel> */}
+
+            <Splide
+                  options={{
+                    type: 'fade', // or 'slide' for horizontal sliding effect
+                    perPage: 1,
+                    autoplay: true,
+                    pauseOnHover: false,
+                    loop: true,
+                    // Add more options as needed
+                  }}
+                >
+                  {imageData.map((item) => (
+
+                    <SplideSlide key={item.id}>
+
+                      <img src={item.image} alt={item.message} className='img-caro'/>
+                      <p className="legend">{item.message}</p>
+                      
+                    </SplideSlide>
+                  ))}
+
+            </Splide>
+
+            
+
 
 
 
