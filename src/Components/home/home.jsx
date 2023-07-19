@@ -181,8 +181,6 @@ function Home() {
                   <p className='inner-p-marks'>&bull; Gwithagathaga Ni undu wa utungata.</p>
 
 
-
-
                 </div>
 
 
@@ -195,8 +193,17 @@ function Home() {
                   <p className='inner-p-marks'>&bull; Leave the world a better place</p>
 
 
-
                 </div>
+
+
+            </div>
+
+
+            <div className="projects">
+
+              <p className='projects-title'>Projects</p>
+
+              
 
 
             </div>
