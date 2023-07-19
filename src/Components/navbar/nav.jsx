@@ -123,13 +123,13 @@ function Navbar() {
 
                 <div className="side-details">
 
-                    <Link to ="/"><p className ='side-links'>Home</p></Link>
+                    <Link to ="/" className='nav-p'><p className ='side-links'>Home</p></Link>
                     <hr></hr>
-                    <Link to ='/contact'><p className ='side-links'>Contact</p></Link>
+                    <Link to ='/contact' className='nav-p'><p className ='side-links'>Contact</p></Link>
                     <hr></hr>
                     <p className ='side-links'>Events</p>
                     <hr></hr>
-                    <Link to ='/gallery'><p className ='side-links'>Gallery</p></Link>
+                    <Link to ='/gallery' className='nav-p'><p className ='side-links'>Gallery</p></Link>
                     <hr></hr>
                     <p className ='side-links'>Become a Member</p>
                     <hr></hr>
