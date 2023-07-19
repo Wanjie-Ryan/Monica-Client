@@ -162,7 +162,7 @@ function Home() {
 
                 <div className="mission">
 
-                  <p>Mission</p>
+                  <p className='mission-titles'>Mission</p>
 
                   <p>To bring the community closer to God</p>
                   <p>Leave the world a better place</p>
@@ -174,7 +174,7 @@ function Home() {
 
                 <div className="mission">
 
-                  <p>{year} theme</p>
+                  <p className='mission-titles'>{year} Theme</p>
 
                   <p>Be Equipped for Ministry.</p>
 
@@ -185,7 +185,7 @@ function Home() {
 
                 <div className="mission">
 
-                  <p>Vission</p>
+                  <p className='mission-titles'>Vision</p>
 
                   <p>Grow the world Spiritually</p>
                   <p>Equip the community for ministry</p>

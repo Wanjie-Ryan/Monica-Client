@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../Components/navbar/nav'
 import Home from '../../Components/home/home'
-// import Footer from '../../Components/footer/footer'
+import Footer from '../../Components/footer/footer'
 
 function HomePages() {
 
@@ -13,7 +13,7 @@ function HomePages() {
 
         <Navbar/>
         <Home/>
-        {/* <Footer/> */}
+        <Footer/>
 
     
     

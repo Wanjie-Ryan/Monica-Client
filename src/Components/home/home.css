@@ -1,6 +1,7 @@
 .home{
 
     width:100%;
+    margin-bottom:50px;
 }
 
 .header-title{
@@ -37,6 +38,33 @@
     box-shadow: 0 2px 4px rgba(105, 61, 86, 0.3);
     cursor: pointer;
 }
+
+.targets{
+
+    display:flex;
+    flex-direction:row;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    gap:2rem;
+}
+
+.mission{
+
+    width:30%;
+    background: linear-gradient(45deg, #a55aaa, #63467a);
+    color:white;
+    padding: 20px;
+    border-radius:10px;
+}
+
+.mission-titles{
+
+    text-align:center;
+    font-size:20px;
+    font-weight: bold;
+}
+
 
 
 
