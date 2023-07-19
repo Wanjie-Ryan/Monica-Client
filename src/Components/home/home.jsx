@@ -164,9 +164,9 @@ function Home() {
 
                   <p className='mission-titles'>Mission</p>
 
-                  <p>To bring the community closer to God</p>
-                  <p>Leave the world a better place</p>
-                  <p>Equip the community for ministry</p>
+                  <p className='inner-p-marks'>&bull; To bring the community closer to God</p>
+                  <p className='inner-p-marks'>&bull; Leave the world a better place</p>
+                  <p className='inner-p-marks'>&bull; Equip the community for ministry</p>
 
               
                 </div>
@@ -176,7 +176,10 @@ function Home() {
 
                   <p className='mission-titles'>{year} Theme</p>
 
-                  <p>Be Equipped for Ministry.</p>
+                  <p className='inner-p-marks'>&bull; Be Equipped for Ministry.</p>
+                  <p className='inner-p-marks'>&bull; Tujitayarishe kwa ajili ya huduma.</p>
+                  <p className='inner-p-marks'>&bull; Gwithagathaga Ni undu wa utungata.</p>
+
 
 
 
@@ -187,9 +190,9 @@ function Home() {
 
                   <p className='mission-titles'>Vision</p>
 
-                  <p>Grow the world Spiritually</p>
-                  <p>Equip the community for ministry</p>
-                  <p>Leave the world a better place</p>
+                  <p className='inner-p-marks'>&bull; Grow the world Spiritually</p>
+                  <p className='inner-p-marks'>&bull; Equip the community for ministry</p>
+                  <p className='inner-p-marks'>&bull; Leave the world a better place</p>
 
 
 

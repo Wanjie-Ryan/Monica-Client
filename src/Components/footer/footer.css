@@ -4,8 +4,11 @@
     /* height:6cm; */
     /* background-color:#782131; */
     /* background-color: #1c8d7b; */
-    background-color: #c07f57;
-    color:#693d56;
+    /* background-color: #c07f57; */
+    background: linear-gradient(45deg, #c07f57, #a55aaa, #63467a);
+    /* color:#693d56; */
+    /* background: linear-gradient(45deg, #a55aaa, #63467a); */
+    color:white;
     /* color:#965170; */
     padding:10px;
 }
