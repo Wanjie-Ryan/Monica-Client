@@ -108,6 +108,8 @@ function Home() {
 
   ]
 
+  const year = new Date().getFullYear()
+
 
   return (
 
@@ -116,6 +118,8 @@ function Home() {
 
 
         <section className ='home'>
+
+          <p className ='header-title'>ACK St.Monica's Church Mugumo-ini</p>
 
           <div className="home-intro">
 
@@ -146,11 +150,54 @@ function Home() {
 
                       <img src={item.image} alt={item.message} className='img-caro'/>
                       <p className="legend">{item.message}</p>
-                      
+
                     </SplideSlide>
                   ))}
 
             </Splide>
+
+
+            <div className="targets">
+
+
+                <div className="mission">
+
+                  <p>Mission</p>
+
+                  <p>To bring the community closer to God</p>
+                  <p>Leave the world a better place</p>
+                  <p>Equip the community for ministry</p>
+
+              
+                </div>
+
+
+                <div className="mission">
+
+                  <p>{year} theme</p>
+
+                  <p>Be Equipped for Ministry.</p>
+
+
+
+                </div>
+
+
+                <div className="mission">
+
+                  <p>Vission</p>
+
+                  <p>Grow the world Spiritually</p>
+                  <p>Equip the community for ministry</p>
+                  <p>Leave the world a better place</p>
+
+
+
+                </div>
+
+
+            </div>
+
 
             
 
