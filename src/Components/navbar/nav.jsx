@@ -7,7 +7,7 @@ import {FcGallery} from 'react-icons/fc'
 import {MdOutlineRememberMe} from 'react-icons/md'
 import {CgProfile} from 'react-icons/cg'
 import {AiFillCloseCircle} from 'react-icons/ai'
-
+import RegisterModal from '../Modals/Register-Modal'
 
 
 function Navbar() {
@@ -18,6 +18,16 @@ function Navbar() {
 
         setshowNav(!showNav)
     }
+
+         const [regModalOpen, setRegModalOpen] = useState(false);
+
+        const openRegModal = () => {
+            setRegModalOpen(true);
+        };
+
+        const closeRegModal = () => {
+            setRegModalOpen(false);
+        };    
 
 
   return (
@@ -61,6 +71,7 @@ function Navbar() {
 
                     <div className="nav-links">
 
+                        <button className='for-new-users remove' onClick={openRegModal}>Become a Member</button>
                         <Link to ='/' className='nav-p'><p className='nav-p'>Home</p></Link>
                         <Link to ='/contact' className='nav-p'><p className='nav-p remove'>Contact</p></Link>
                         <Link to ='/events' className='nav-p'><p className ='nav-p remove'>Events</p></Link>
@@ -122,11 +133,13 @@ function Navbar() {
 
                 <div className="side-details">
 
+
+                    <button className='for-new-users side-btn' onClick={openRegModal}>Become a Member</button>
                     <Link to ="/" className='nav-p'><p className ='side-links'>Home</p></Link>
                     <hr></hr>
                     <Link to ='/contact' className='nav-p'><p className ='side-links'>Contact</p></Link>
                     <hr></hr>
-                    <p className ='side-links'>Events</p>
+                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events</p></Link>
                     <hr></hr>
                     <Link to ='/gallery' className='nav-p'><p className ='side-links'>Gallery</p></Link>
                     <hr></hr>
@@ -142,6 +155,20 @@ function Navbar() {
         
         )}
 
+            <RegisterModal
+                isOpen={regModalOpen}
+                onClose={closeRegModal}
+                // onUpdate={handleUpdateSubmit}
+                // name={votername}
+                // name={contact}
+
+                // onChange={(e) => {
+                // const { name, value } = e.target;
+                // if (name === 'namesvoter') setvotername(value);
+                // if (name === 'contact') setcontact(value);
+                // }}
+
+            />
 
     
     

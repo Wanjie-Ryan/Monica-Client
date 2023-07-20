@@ -15,6 +15,8 @@ function Announcement (){
 
                 <p className='news-title'>News & Notices</p>
 
+        
+
                 <div className="announcement-details">
 
                     {/* <details className="details">

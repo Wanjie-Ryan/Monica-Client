@@ -275,6 +275,27 @@
 
 }
 
+.for-new-users{
 
+  background-color: #693d56;
+  color:white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
   
+.for-new-users:hover{
+
+  background-color: #59372c;
+
+}
+
+.side-btn{
+
+  margin-left:120px;
+  margin-bottom: 20px;
+  padding:10px;
+  
+}
   
