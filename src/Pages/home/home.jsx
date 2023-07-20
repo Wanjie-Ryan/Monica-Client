@@ -13,7 +13,7 @@ function HomePages() {
 
         <Navbar/>
         <Home/>
-        {/* <Footer/> */}
+        <Footer/>
 
     
     

@@ -231,6 +231,16 @@ function Home() {
 
             </div>
 
+            <div className="prayer-cells">
+
+              <p className='prayer-title'>Prayer Cells</p>
+
+              <p className='prayer-desc'>Worship within your neighborhood, maombi mtaani.</p>
+
+
+
+            </div>
+
 
             
 

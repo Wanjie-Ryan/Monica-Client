@@ -143,5 +143,25 @@
 
 }
 
+.prayer-cells{
+
+    margin-top: 40px;
+}
+
+.prayer-title{
+
+    font-size:20px;
+    font-weight: bold;
+    color:#693d56;
+}
+
+.prayer-desc{
+
+    width:100%;
+    background-color:#de9973;
+    padding:5px;
+    margin-top: 10px;
+}
+
 
 
