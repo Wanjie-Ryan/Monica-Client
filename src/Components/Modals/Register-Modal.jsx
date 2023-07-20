@@ -2,7 +2,9 @@ import React from 'react'
 import './reg.css'
 import Modal from 'react-modal'
 import {BsFillPersonFill, BsFillTelephoneFill} from 'react-icons/bs'
-import {FaPoll,FaSchool} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
+import {BiCurrentLocation} from 'react-icons/bi'
+
 
 function Regsiter({ isOpen, onClose, onUpdate, votername, contact,  onChange, errmsg }) {
 
@@ -21,14 +23,30 @@ function Regsiter({ isOpen, onClose, onUpdate, votername, contact,  onChange, er
 
         <div className ='modal-content-main'>
 
-                <h2>Register Member</h2>
-                {/* <p>Note:This Register part is only for new members who have never been to St.Monica</p> */}
+                <h2>Register New Member</h2>
+                <p className='modal-note'>Note:Only for new members who have <mark>never</mark> been to St.Monica</p>
 
                 <div className ='name'>
 
                     <BsFillPersonFill/>
 
-                    <input type="text" name="namesvoter" placeholder ='Enter the Voters name' value={votername} onChange={onChange} />
+                    <input type="text" name="namesvoter" placeholder ='Enter Your name' value={votername} onChange={onChange} />
+
+                </div>
+
+                <div className ='name'>
+
+                    <MdEmail/>
+
+                    <input type="text" name="namesvoter" placeholder ='Enter your email' value={votername} onChange={onChange} />
+
+                </div>
+
+                <div className ='name'>
+
+                    <BiCurrentLocation/>
+
+                    <input type="text" name="namesvoter" placeholder ='Where do you reside?' value={votername} onChange={onChange} />
 
                 </div>
 
@@ -38,7 +56,7 @@ function Regsiter({ isOpen, onClose, onUpdate, votername, contact,  onChange, er
                   <BsFillTelephoneFill/>
 
 
-                  <input type="text" name="contact" placeholder ='Enter the Voters PhoneNumber' value={contact} onChange={onChange} />
+                  <input type="text" name="contact" placeholder ='Enter Your PhoneNumber' value={contact} onChange={onChange} />
 
                    
                 </div>
