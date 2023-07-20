@@ -130,7 +130,7 @@ function Navbar() {
                     <hr></hr>
                     <Link to ='/gallery' className='nav-p'><p className ='side-links'>Gallery</p></Link>
                     <hr></hr>
-                    <Link to ='/announce'  className='nav-p'><p className='nav-p remove'>Announcements</p></Link>
+                    <Link to ='/announce'  className='nav-p'><p className ='side-links'>Announcements</p></Link>
                     <hr></hr>
                    
 

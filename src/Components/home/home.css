@@ -312,6 +312,7 @@
     .external-links{
 
         text-align:center;
+        
     }
 
     .targets{
@@ -349,6 +350,34 @@
 
         /* top:190px; */
         left:100px;
+    }
+
+    .prayer-cells{
+
+        margin-top:70px;
+    }
+
+    .contribution{
+
+        flex-direction:column;
+    }
+
+    .offering{
+
+        width:100%;
+       
+    }
+
+    .offering p{
+
+        text-align: center;
+        margin-top:5px;
+    }
+
+    .mpesa{
+
+        width:320px;
+
     }
 
 
