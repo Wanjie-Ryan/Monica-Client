@@ -163,5 +163,42 @@
     margin-top: 10px;
 }
 
+.prayer-meeting{
+
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    font-weight:600;
+}
+
+.table-container {
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 20px auto;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: white;
+  }
+  
+  .custom-table th {
+    background-color: #59372c;
+  }
+  
+  .custom-table tr.row-even {
+    background: linear-gradient(45deg, #a55aaa, #63467a);
+  }
+  
+
+
+
 
 

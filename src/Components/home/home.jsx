@@ -6,7 +6,9 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import churchView from '../../Assets/homeImages/church_view.jpg'
 import { Link } from 'react-scroll';
-
+import mpesa from '../../Assets/homeImages/mpesa.png'
+import equity from '../../Assets/homeImages/equity.png'
+import std from '../../Assets/homeImages/standard.png'
 
 
 function Home() {
@@ -236,6 +238,114 @@ function Home() {
               <p className='prayer-title'>Prayer Cells</p>
 
               <p className='prayer-desc'>Worship within your neighborhood, maombi mtaani.</p>
+
+              <p className='prayer-meeting'>Prayer Cells Meeting</p>
+
+              <div className="table-container">
+                <table className="custom-table">
+
+                  <thead>
+
+                    <tr>
+
+                      <th>Group</th>
+                      <th>Venue</th>
+                      <th>Day</th>
+
+                    </tr>
+
+                  </thead>
+
+                  <tbody>
+
+                    <tr className="row-even">
+                      <td>Ephesus</td>
+                      <td>Church</td>
+                      <td>Tuesday</td>
+                    </tr>
+
+                    <tr className="row-even">
+                      <td>Jerusalem</td>
+                      <td>Church</td>
+                      <td>Thursday</td>
+                    </tr>
+
+                    <tr className="row-even">
+                      <td>Bethlehem</td>
+                      <td>Jane Joroge</td>
+                      <td>Tuesday</td>
+                    </tr>
+
+                    <tr className="row-even">
+                      <td>Bethany</td>
+                      <td>Mama Tyler</td>
+                      <td>Friday</td>
+                    </tr>
+
+                    <tr className="row-even">
+                      <td>Judea</td>
+                      <td>Church</td>
+                      <td>Friday</td>
+                    </tr>
+
+                    <tr className="row-even">
+                      <td>Galilee</td>
+                      <td>School for the Blind</td>
+                      <td>Thursday</td>
+                    </tr>
+
+                    <tr className="row-even">
+                      <td>Bethsaida</td>
+                      <td>Grace Waithaka</td>
+                      <td>Friday</td>
+                    </tr>
+
+                   
+                  </tbody>
+
+                </table>
+
+             </div>
+
+            </div>
+
+
+            <div className='donate' id ='contribute'>
+
+              <p className='prayer-title'>Contribute to the church</p>
+
+              <div className="contribution">
+
+                <div className='offering'>
+
+                  <img src={mpesa} alt='mpesa' className='mpesa'/>
+
+
+
+
+                </div>
+
+                <div className='offering'>
+
+                <img src={mpesa} alt='mpesa' className='mpesa'/>
+
+
+
+
+                </div>
+
+                <div className='offering'>
+
+                <img src={mpesa} alt='mpesa' className='mpesa'/>
+
+
+
+
+
+                </div>
+
+
+              </div>
 
 
 
