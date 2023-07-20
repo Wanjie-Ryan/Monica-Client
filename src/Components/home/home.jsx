@@ -180,10 +180,8 @@ function Home() {
 
                 <div className="yt">
 
-                <video src={FBVideo} alt="Video Hero" autoPlay muted loop className='yt-video'></video>
-                <a href ='https://web.facebook.com/profile.php?id=100071086714420' target="_blank" rel="noopener noreferrer" className='external-links'>Go to Facebook</a>
-
-
+                  <video src={FBVideo} alt="Video Hero" autoPlay muted loop className='yt-video'></video>
+                  <a href ='https://web.facebook.com/profile.php?id=100071086714420' target="_blank" rel="noopener noreferrer" className='external-links'>Go to Facebook</a>
 
 
                 </div>
@@ -241,7 +239,7 @@ function Home() {
             <div className="projects">
 
 
-              <p className='projects-title'>Projects</p>
+              <p className='prayer-title'>Projects</p>
 
                 <div className="container">
 
