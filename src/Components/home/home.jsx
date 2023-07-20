@@ -4,6 +4,8 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import churchView from '../../Assets/homeImages/church_view.jpg'
+import { Link } from 'react-scroll';
 
 
 
@@ -201,10 +203,31 @@ function Home() {
 
             <div className="projects">
 
+
               <p className='projects-title'>Projects</p>
 
-              
+                <div className="container">
 
+                  <img src ={churchView}  alt= 'church-view' className='church-projects'/>
+
+                  <p className='project-desc'>Building a complex for the Youth</p>
+
+                  <Link
+                  
+                  className='project-contribute'
+                  activeClass="active"
+                  to="contribute"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  >
+                    
+                    Contribute
+                    
+                  </Link>
+
+                </div>
 
             </div>
 
