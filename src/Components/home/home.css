@@ -332,8 +332,23 @@
 
     .church-projects{
 
-        width:100%;
+        width:90%;
 
+    }
+
+    .project-desc{
+
+        font-size:19px;
+        width:350px;
+        top:20px;
+        text-align:center;
+        
+    }
+
+    .project-contribute{
+
+        /* top:190px; */
+        left:100px;
     }
 
 
