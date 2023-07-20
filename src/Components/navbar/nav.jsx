@@ -65,8 +65,7 @@ function Navbar() {
                         <Link to ='/contact' className='nav-p'><p className='nav-p remove'>Contact</p></Link>
                         <Link to ='/events' className='nav-p'><p className ='nav-p remove'>Events</p></Link>
                         <Link to ='/gallery' className='nav-p'><p className='nav-p remove'>Gallery</p></Link>
-                        <p className='nav-p remove'>Become a Member</p>
-                        <CgProfile title='Profile' className='icon remove'/>
+                        <Link to ='/announce'  className='nav-p'><p className='nav-p remove'>Announcements</p></Link>
                         <BiMenu className='icon-menu' onClick ={handleNav}/>
 
 
@@ -131,9 +130,9 @@ function Navbar() {
                     <hr></hr>
                     <Link to ='/gallery' className='nav-p'><p className ='side-links'>Gallery</p></Link>
                     <hr></hr>
-                    <p className ='side-links'>Become a Member</p>
+                    <Link to ='/announce'  className='nav-p'><p className='nav-p remove'>Announcements</p></Link>
                     <hr></hr>
-                    <CgProfile title='Profile'  id ='side-links'/>
+                   
 
                 </div>
    
