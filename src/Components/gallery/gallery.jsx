@@ -1,4 +1,6 @@
 import React from 'react'
+import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry';
+import './gallery.css'
 
 
 
@@ -107,8 +109,25 @@ function Gallery (){
 
         <>
 
-            <p>dsghs</p>
-        
+            <ResponsiveMasonry columnsCountBreakPoints={{350:1, 768:3, 992:4}}>
+
+                    <Masonry gutter='1rem'>
+                        {
+                            imageData.map((item,index)=>(
+                                <img 
+
+                                    className='masonry__img'
+                                    src={item.image} 
+                                    key={index} 
+                                    alt="" 
+                                    style={{width:'100%', display:'block', borderRadius:'10px'}}
+
+                                    />
+                            ))
+                        }
+                    </Masonry>
+                </ResponsiveMasonry>
+                    
         
         
         </>
