@@ -196,7 +196,37 @@
   .custom-table tr.row-even {
     background: linear-gradient(45deg, #a55aaa, #63467a);
   }
+
   
+  .contribution{
+
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .offering{
+
+    width:35%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .mpesa{
+
+    width:100px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+  }
+
+  .accounts{
+
+    font-weight:bold;
+  }
 
 
 

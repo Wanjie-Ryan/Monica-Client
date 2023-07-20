@@ -7,8 +7,8 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import churchView from '../../Assets/homeImages/church_view.jpg'
 import { Link } from 'react-scroll';
 import mpesa from '../../Assets/homeImages/mpesa.png'
-import equity from '../../Assets/homeImages/equity.png'
-import std from '../../Assets/homeImages/standard.png'
+import equity from '../../Assets/homeImages/brand.gif'
+import std from '../../Assets/homeImages/Standard_Chartered_logo.jpg'
 
 
 function Home() {
@@ -319,6 +319,8 @@ function Home() {
                 <div className='offering'>
 
                   <img src={mpesa} alt='mpesa' className='mpesa'/>
+                  <p>Pay Via the Paybill:<span className='accounts'>834868</span></p>
+                  <p>Account Number:<span className='accounts'> ACK OFFERTORY </span></p>
 
 
 
@@ -327,7 +329,7 @@ function Home() {
 
                 <div className='offering'>
 
-                <img src={mpesa} alt='mpesa' className='mpesa'/>
+                <img src={equity} alt='mpesa' className='mpesa'/>
 
 
 
@@ -336,7 +338,7 @@ function Home() {
 
                 <div className='offering'>
 
-                <img src={mpesa} alt='mpesa' className='mpesa'/>
+                <img src={std} alt='mpesa' className='mpesa'/>
 
 
 
