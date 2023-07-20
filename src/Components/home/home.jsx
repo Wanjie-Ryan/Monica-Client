@@ -9,6 +9,8 @@ import { Link } from 'react-scroll';
 import mpesa from '../../Assets/homeImages/mpesa.png'
 import equity from '../../Assets/homeImages/brand.gif'
 import std from '../../Assets/homeImages/Standard_Chartered_logo.jpg'
+import YTVideo from '../../Assets/videos/Monica Updated Video.mp4'
+
 
 
 function Home() {
@@ -159,6 +161,39 @@ function Home() {
                   ))}
 
             </Splide>
+
+
+            <div className ='fellowship'>
+
+              <p className ='prayer-title'>Let's Fellowship together</p>
+              <p className='prayer-desc'>Catch our livestreams at Youtube and Facebook, do not miss, fellowship wherever you are, at your comfort</p>
+
+              <div className="fellow-videos">
+
+                <div className='yt'>
+
+                  <video src={YTVideo} alt="Video Hero" autoPlay muted loop className='yt-video'></video>
+                  
+                  <a href ='https://www.youtube.com/@st.monicasackmugumo-inithi9997' target="_blank" rel="noopener noreferrer" className='external-links'>Go to Youtube</a>
+
+                </div>
+
+                <div className="yt">
+
+                <video src={YTVideo} alt="Video Hero" autoPlay muted loop className='yt-video'></video>
+                <a href ='https://www.youtube.com/@st.monicasackmugumo-inithi9997' target="_blank" rel="noopener noreferrer" className='external-links'>Go to Facebook</a>
+
+
+
+
+                </div>
+
+              </div>
+
+
+
+
+            </div>
 
 
             <div className="targets">
@@ -320,7 +355,7 @@ function Home() {
 
                   <img src={mpesa} alt='mpesa' className='mpesa'/>
                   <p>Pay Via the Paybill:<span className='accounts'>834868</span></p>
-                  <p>Account Number:<span className='accounts'> ACK OFFERTORY </span></p>
+                  <p>Account Number:<span className='accounts'>Tithe OR Offerings </span></p>
 
 
                 </div>
