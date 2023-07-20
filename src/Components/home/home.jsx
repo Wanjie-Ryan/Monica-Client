@@ -323,25 +323,22 @@ function Home() {
                   <p>Account Number:<span className='accounts'> ACK OFFERTORY </span></p>
 
 
-
-
                 </div>
 
                 <div className='offering'>
 
-                <img src={equity} alt='mpesa' className='mpesa'/>
-
-
-
+                  <img src={equity} alt='mpesa' className='mpesa'/>
+                  <p className='eq-title'>Development Account</p>
+                  <p>Pay Via the Paybill:<span className='accounts'>247247</span></p>
+                  <p>Account Number:<span className='accounts'> 0090290373862 </span></p>
 
                 </div>
 
                 <div className='offering'>
 
                 <img src={std} alt='mpesa' className='mpesa'/>
-
-
-
+                <p className='eq-title'>Cheques are payable to:</p>
+                <p>Account Number:<span className='accounts'> 0102812751600 </span></p>
 
 
                 </div>
@@ -355,14 +352,7 @@ function Home() {
 
 
             
-
-
-
-
           </div>
-
-
-
 
 
         </section>
