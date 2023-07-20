@@ -10,7 +10,7 @@ import mpesa from '../../Assets/homeImages/mpesa.png'
 import equity from '../../Assets/homeImages/brand.gif'
 import std from '../../Assets/homeImages/Standard_Chartered_logo.jpg'
 import YTVideo from '../../Assets/videos/Monica Updated Video.mp4'
-
+import FBVideo from '../../Assets/videos/Facebook Monica.mp4'
 
 
 function Home() {
@@ -180,8 +180,8 @@ function Home() {
 
                 <div className="yt">
 
-                <video src={YTVideo} alt="Video Hero" autoPlay muted loop className='yt-video'></video>
-                <a href ='https://www.youtube.com/@st.monicasackmugumo-inithi9997' target="_blank" rel="noopener noreferrer" className='external-links'>Go to Facebook</a>
+                <video src={FBVideo} alt="Video Hero" autoPlay muted loop className='yt-video'></video>
+                <a href ='https://web.facebook.com/profile.php?id=100071086714420' target="_blank" rel="noopener noreferrer" className='external-links'>Go to Facebook</a>
 
 
 
