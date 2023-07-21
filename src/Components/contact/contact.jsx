@@ -1,13 +1,27 @@
-import React from 'react'
+import React, {useState} from 'react'
 import'./contact.css'
 import {BsFacebook} from 'react-icons/bs'
 import {BiLogoGmail} from 'react-icons/bi'
 import {AiTwotonePhone} from 'react-icons/ai'
-
+import ContactModal from '../contactModal/cont-modal'
 
 
 
 function Contact() {
+
+        const [officeModalOpen, setofficeModalOpen] = useState(false);
+
+        const openOfficeModal = () => {
+
+          setofficeModalOpen(true);
+
+        };
+
+        const closeOfficeModal = () => {
+
+           setofficeModalOpen(false);
+        };    
+
 
 
 
@@ -27,7 +41,7 @@ function Contact() {
 
         <div className="floating-button">
 
-          <button>Office Hours</button>
+          <button onClick ={openOfficeModal}>Office Hours</button>
                         
         </div>
 
@@ -111,6 +125,22 @@ function Contact() {
 
 
       </section>
+
+      <ContactModal
+                isOpen={officeModalOpen}
+                onClose={closeOfficeModal}
+                // onUpdate={handleUpdateSubmit}
+                // name={votername}
+                // name={contact}
+
+                // onChange={(e) => {
+                // const { name, value } = e.target;
+                // if (name === 'namesvoter') setvotername(value);
+                // if (name === 'contact') setcontact(value);
+                // }}
+
+            />
+
     
     
     </>
