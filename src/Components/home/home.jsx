@@ -353,7 +353,7 @@ function Home() {
 
                   <img src={mpesa} alt='mpesa' className='mpesa'/>
                   <p>Pay Via the Paybill:<span className='accounts'>834868</span></p>
-                  <p>Account Number:<span className='accounts'>Tithe OR Offerings </span></p>
+                  <p>Account Number:<span className='accounts'>Tithe OR Offertory OR Thanksgiving OR any other reason for giving </span></p>
 
 
                 </div>

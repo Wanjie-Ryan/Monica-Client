@@ -1,3 +1,38 @@
+.contact{
+
+  width:100%;
+  position:relative;
+}
+
+.floating-button {
+
+  position: fixed;
+  top:90px;
+  /* bottom: 20px; */
+  right: 20px;
+  /* z-index: 999; */
+
+}
+
+.floating-button button {
+
+  background-color:#693d56 ;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+
+.floating-button button:hover {
+  background-color:#59372c ;
+  
+}
+
+
+
 .intro-contact{
 
     width:100%;

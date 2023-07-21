@@ -5,6 +5,8 @@ import {BiLogoGmail} from 'react-icons/bi'
 import {AiTwotonePhone} from 'react-icons/ai'
 
 
+
+
 function Contact() {
 
 
@@ -21,6 +23,12 @@ function Contact() {
           <p>Feel free to contact us, Come, Let us Fellowship Together, Where two or more are gathered, the Lord is with us.</p>
 
 
+        </div>
+
+        <div className="floating-button">
+
+          <button>Office Hours</button>
+                        
         </div>
 
         <div className="main-contact">
