@@ -73,11 +73,11 @@ function Navbar() {
 
                         <button className='for-new-users remove' onClick={openRegModal}>Become a Member</button>
                         <Link to ='/' className='nav-p'><p className='nav-p'>Home</p></Link>
+                        <BiMenu className='icon-menu' onClick ={handleNav}/>
                         <Link to ='/contact' className='nav-p'><p className='nav-p remove'>Contact</p></Link>
                         <Link to ='/events' className='nav-p'><p className ='nav-p remove'>Events</p></Link>
                         <Link to ='/gallery' className='nav-p'><p className='nav-p remove'>Gallery</p></Link>
                         <Link to ='/announce'  className='nav-p'><p className='nav-p remove'>Announcements</p></Link>
-                        <BiMenu className='icon-menu' onClick ={handleNav}/>
 
 
                     </div>
