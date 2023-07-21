@@ -157,6 +157,20 @@
 
 }
 
+/* #position{
+
+  position:relative;
+} */
+
+.events{
+
+  position: relative;
+  top:40px;
+  right:90px;
+  /* width:300px; */
+  background-color: red;
+}
+
 
 /* STYLES FOR SIDEBAR */
 
@@ -231,6 +245,8 @@
     margin-bottom:15px;
     margin-top:5px;
 }
+
+
 
 
 #side-links{
