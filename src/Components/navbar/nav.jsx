@@ -71,12 +71,34 @@ function Navbar() {
 
                     <div className="nav-links">
 
-                        <button className='for-new-users remove' onClick={openRegModal}>Become a Member</button>
-                        <Link to ='/' className='nav-p'><p className='nav-p'>Home</p></Link>
-                        <BiMenu className='icon-menu' onClick ={handleNav}/>
-                        <Link to ='/contact' className='nav-p'><p className='nav-p remove'>Contact</p></Link>
+                        <div className="nav-links-inner">
 
-                        <p className ='nav-p remove ' id ='position'>Events</p>
+                            <button className='for-new-users remove' onClick={openRegModal}>Become a Member</button>
+
+                        </div>
+
+                        <div className="nav-links-inner">
+
+                            <Link to ='/' className='nav-p'><p className='nav-p'>Home</p></Link>
+
+                        </div>
+
+                        {/* <div className="nav-links-inner"> */}
+
+                            <BiMenu className='icon-menu' onClick ={handleNav}/>
+
+                        {/* </div> */}
+
+                        <div className="nav-links-inner">
+
+                             <Link to ='/contact' className='nav-p'><p className='nav-p remove'>Contact</p></Link>
+
+                        </div>
+
+                        <div className="nav-links-inner">
+
+                            <p className ='nav-p remove ' id ='position'>Events</p>
+                        </div>
 
                         <div className='events'>
 
@@ -89,8 +111,17 @@ function Navbar() {
 
                         </div>
 
-                        <Link to ='/gallery' className='nav-p'><p className='nav-p remove'>Gallery</p></Link>
-                        <Link to ='/announce'  className='nav-p'><p className='nav-p remove'>Announcements</p></Link>
+                        <div className="nav-links-inner">
+
+                            <Link to ='/gallery' className='nav-p'><p className='nav-p remove'>Gallery</p></Link>
+
+                        </div>
+
+                        <div className="nav-links-inner">
+
+                            <Link to ='/announce'  className='nav-p'><p className='nav-p remove'>Announcements</p></Link>
+
+                        </div>
 
 
                     </div>

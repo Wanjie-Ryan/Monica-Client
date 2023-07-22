@@ -64,7 +64,7 @@ function Regsiter({ isOpen, onClose, onUpdate, votername, contact,  onChange, er
 
                 
 
-                <button onClick={onUpdate} className='update-modal-button' >Confirm Update</button>
+                <button onClick={onUpdate} className='update-modal-button' >Submit</button>
                 <button onClick={onClose} className ='modal-close-button'>Cancel</button>
 
                 {/* {errmsg && <p className ='error'>{errmsg}</p>} */}
