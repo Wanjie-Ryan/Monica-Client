@@ -27,7 +27,14 @@ function Navbar() {
 
         const closeRegModal = () => {
             setRegModalOpen(false);
-        };    
+        }; 
+        
+    const [events, setEvents] = useState(false)
+
+    const setShowEvents =()=>{
+
+        setEvents(!events)
+    }
 
 
   return (
@@ -97,19 +104,30 @@ function Navbar() {
 
                         <div className="nav-links-inner">
 
-                            <p className ='nav-p remove ' id ='position'>Events</p>
+                            <p className ='nav-p remove' onClick ={setShowEvents} id ='position'>Events</p>
+
+
+                            {events &&
+                            
+                                <div className='events'>
+
+                                    <Link to ='/events' className='nav-p'><p className ='side-links'>General Events</p></Link>
+                                    <hr></hr>
+                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Kids</p></Link>
+                                    <hr></hr>
+                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Teens</p></Link>
+                                    <hr></hr>
+                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Youths</p></Link>
+                                    <hr></hr>
+                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Men</p></Link>
+                                    <hr></hr>
+                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Ladies</p></Link>
+
+                                </div>
+                            }
+
                         </div>
 
-                        <div className='events'>
-
-                            {/* <Link to ='/events' className='nav-p'><p className ='side-links'>General Events</p></Link>
-                            <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Kids</p></Link>
-                            <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Teens</p></Link>
-                            <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Youths</p></Link>
-                            <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Men</p></Link>
-                            <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Women</p></Link> */}
-
-                        </div>
 
                         <div className="nav-links-inner">
 
