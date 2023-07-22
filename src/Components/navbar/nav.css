@@ -293,10 +293,23 @@
 
     .events{
 
-      display: none;
-
+      /* display:flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: center; */
+      /* height:50vh; */
+      top:10px;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
     }
 
+    .events-remove{
+
+      display:none;
+    }
+    
     .nav-links{
 
       gap:0;
@@ -326,6 +339,7 @@
 
     .side{
 
+        height:550vh;
         width:100%;
     }
 

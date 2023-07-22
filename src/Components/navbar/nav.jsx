@@ -109,7 +109,7 @@ function Navbar() {
 
                             {events &&
                             
-                                <div className='events'>
+                                <div className='events events-remove'>
 
                                     <Link to ='/events' className='nav-p'><p className ='side-links'>General Events</p></Link>
                                     <hr></hr>
@@ -201,7 +201,28 @@ function Navbar() {
                     <hr></hr>
                     <Link to ='/contact' className='nav-p'><p className ='side-links'>Contact</p></Link>
                     <hr></hr>
-                    <p className ='side-links'>Events</p>
+
+                    <p className ='side-links' onClick ={setShowEvents}>Events</p>
+
+                        {events &&
+
+                            <div className='events'>
+
+                                <Link to ='/events' className='nav-p'><p className ='side-links'>General Events</p></Link>
+                                    <hr></hr>
+                                <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Kids</p></Link>
+                                    <hr></hr>
+                                <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Teens</p></Link>
+                                    <hr></hr>
+                                <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Youths</p></Link>
+                                    <hr></hr>
+                                <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Men</p></Link>
+                                    <hr></hr>
+                                <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Ladies</p></Link>
+
+                            </div>
+                         
+                         }
 
                     
                     <hr></hr>
