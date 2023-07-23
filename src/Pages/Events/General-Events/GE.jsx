@@ -13,7 +13,7 @@ function GEPages() {
 
         <Navbar/>
         <GeneralEvents/>
-        <Footer/>
+        {/* <Footer/> */}
 
     
     
