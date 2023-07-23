@@ -6,7 +6,7 @@ import EventsRegModal from '../Events-Modal/Event-Reg-Modal'
 
 
 
-function Singleladies (){
+function SingleLadies (){
 
     const [EventModalOpen, setEventModalOpen] = useState(false);
 

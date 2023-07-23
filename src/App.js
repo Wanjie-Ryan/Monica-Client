@@ -14,6 +14,8 @@ import YouthComponent from '../src/Pages/Events/Youth-Events/Youth'
 import SingleYouthComponent from '../src/Pages/Events/Youth-Events/SingleYouth'
 import MenComponent from '../src/Pages/Events/Men-Events/Men'
 import SingleMenComponent from '../src/Pages/Events/Men-Events/singleMen'
+import LadiesComponent from '../src/Pages/Events/Ladies-Events/Ladies'
+import SingleLadiesComponent from '../src/Pages/Events/Ladies-Events/SingleLadies'
 
 
 function App() {
@@ -34,14 +36,15 @@ function App() {
           <Route path ='/general-events' element ={<GeneralEventsComponent/>}/>
           <Route path ='/general-events/:id' element ={<SingleGEComponent/>}/>
           <Route path ='/kids-events' element ={<KidsEventsComponent/>}/>
-          <Route path ='kids-events/:id' element ={<SingleKidsComponent/>}/>
-          <Route path ='teen-events' element ={<Teens/>}/>
-          <Route path ='teen-events/:id' element ={<SingleTeenComponent/>}/>
-          <Route path ='youth-events' element ={<YouthComponent/>}/>
-          <Route path ='youth-events/:id' element ={<SingleYouthComponent/>}/>
-          <Route path ='men-events' element ={<MenComponent/>}/>
-          <Route path ='men-events/:id' element ={<SingleMenComponent/>}/>
-
+          <Route path ='/kids-events/:id' element ={<SingleKidsComponent/>}/>
+          <Route path ='/teen-events' element ={<Teens/>}/>
+          <Route path ='/teen-events/:id' element ={<SingleTeenComponent/>}/>
+          <Route path ='/youth-events' element ={<YouthComponent/>}/>
+          <Route path ='/youth-events/:id' element ={<SingleYouthComponent/>}/>
+          <Route path ='/men-events' element ={<MenComponent/>}/>
+          <Route path ='/men-events/:id' element ={<SingleMenComponent/>}/>
+          <Route path ='/ladies-events' element ={<LadiesComponent/>}/>
+          <Route path ='/ladies-events/:id' element ={< SingleLadiesComponent/>}/>
 
 
 

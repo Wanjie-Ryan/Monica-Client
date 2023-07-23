@@ -14,8 +14,8 @@ function LadiesEvents (){
 
             <section className="general-events">
 
-                <p className='gen-title'>Events for Men</p>
-                <p className='event-desc'>These are the events that the Men are involved in</p>
+                <p className='gen-title'>Events for Ladies</p>
+                <p className='event-desc'>These are the events that the Ladies are involved in</p>
 
                 <div className='all-events'>
 
