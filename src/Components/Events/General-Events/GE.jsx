@@ -43,6 +43,8 @@ function GeneralEvents (){
                             </div>
 
                             
+
+                            
                         
                         </div>
 
@@ -74,7 +76,7 @@ function GeneralEvents (){
                         </div>
 
 
-                        <p className='upcoming-title'>Past Events Events</p>
+                        <p className='upcoming-title'>Past Events</p>
 
                         <div className='upcoming-events'>
 
