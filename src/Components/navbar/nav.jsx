@@ -111,17 +111,17 @@ function Navbar() {
                             
                                 <div className='events events-remove'>
 
-                                    <Link to ='/events' className='nav-p'><p className ='side-links'>General Events</p></Link>
+                                    <Link to ='/general-events' className='nav-p'><p className ='side-links'>General Events</p></Link>
                                     <hr></hr>
-                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Kids</p></Link>
+                                    <Link to ='/kids-events' className='nav-p'><p className ='side-links'>Events for Kids</p></Link>
                                     <hr></hr>
-                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Teens</p></Link>
+                                    <Link to ='/teen-events' className='nav-p'><p className ='side-links'>Events for Teens</p></Link>
                                     <hr></hr>
-                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Youths</p></Link>
+                                    <Link to ='/youth-events' className='nav-p'><p className ='side-links'>Events for Youths</p></Link>
                                     <hr></hr>
-                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Men</p></Link>
+                                    <Link to ='/men-events' className='nav-p'><p className ='side-links'>Events for Men</p></Link>
                                     <hr></hr>
-                                    <Link to ='/events' className='nav-p'><p className ='side-links'>Events for Ladies</p></Link>
+                                    <Link to ='/ladies-events' className='nav-p'><p className ='side-links'>Events for Ladies</p></Link>
 
                                 </div>
                             }
