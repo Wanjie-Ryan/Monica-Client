@@ -19,34 +19,86 @@ function GeneralEvents (){
 
                 <div className='all-events'>
 
-                    <div className='upcoming-events'>
+                    <div className="all-events-container">
 
                         <p className='upcoming-title'>Current Events</p>
 
-                        <img src ={generalEvents} alt =''  className='img-events'/>
 
-                        <Link to = '/general-events/:id' className='explore'>Explore</Link>
-
-                        <p>Event Title:</p>
-                        <p>Event Description:</p>
+                        <div className='upcoming-events'>
 
 
-                       
+                            <div className="upcoming-events-container">
 
-                    </div>
+                                <div className='img-cont'>
+                                    
+                                    <img src ={generalEvents} alt =''  className='img-events'/>
+                                    <Link to = '/general-events/:id' className='explore'>Explore</Link>
 
-                    <div className='upcoming-events'>
+                                </div>
+
+
+                                <p className='event-title'>Event Title:</p>
+                                <p className='event-title'>Event Description:</p>
+
+                            </div>
+
+                            
+                        
+                        </div>
+
 
                         <p className='upcoming-title'>Upcoming Events</p>
-                        
-                    </div>
 
-                    <div className='upcoming-events'>
+                        <div className='upcoming-events'>
+
+                            <div className="upcoming-events-container">
+
+                                <div className='img-cont'>
+                                        
+                                    <img src ={generalEvents} alt =''  className='img-events'/>
+                                    <Link to = '/general-events/:id' className='explore'>Explore</Link>
+
+                                </div>
+
+
+                                <p className='event-title'>Event Title:</p>
+                                <p className='event-title'>Event Description:</p>
+                                <p>Actual Date for Event:</p>
+                                <p>Registration Deadline:</p>
+
+                            </div>
+
+                            
+
+                                   
+                        </div>
+
 
                         <p className='upcoming-title'>Past Events Events</p>
-                        
-                    </div>
 
+                        <div className='upcoming-events'>
+
+                            <div className="upcoming-events-container">
+
+                                <div className='img-cont'>
+                                        
+                                    <img src ={generalEvents} alt =''  className='img-events'/>
+                                    <Link to = '/general-events/:id' className='explore'>Explore</Link>
+
+                                </div>
+
+
+                                <p className='event-title'>Event Title:</p>
+                                <p className='event-title'>Event Description:</p>
+                                
+
+                            </div>
+
+
+                                
+                        </div>
+
+                    </div>
 
                 </div>
 
