@@ -6,6 +6,9 @@ import GalleryComponent from '../src/Pages/gallery/gallery'
 import AnnouncementComponent from '../src/Pages/announcement/ann'
 import GeneralEventsComponent from '../src/Pages/Events/General-Events/GE'
 import SingleGEComponent from '../src/Pages/Events/General-Events/Single-GE'
+import KidsEventsComponent from '../src/Pages/Events/Kids-Events/kidsEvents'
+import SingleKidsComponent from '../src/Pages/Events/Kids-Events/SingleKids'
+
 
 
 
@@ -26,6 +29,8 @@ function App() {
           <Route path ='/announce' element ={<  AnnouncementComponent/>}/>
           <Route path ='/general-events' element ={<GeneralEventsComponent/>}/>
           <Route path ='/general-events/:id' element ={<SingleGEComponent/>}/>
+          <Route path ='/kids-events' element ={<KidsEventsComponent/>}/>
+          <Route path ='kids-events/:id' element ={<SingleKidsComponent/>}/>
           
 
 
