@@ -1,12 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './SingleGE.css'
 import generalEvents from '../../../Assets/Events/general_events.jpg'
-
+import EventsRegModal from '../Events-Modal/Event-Reg-Modal'
 
 
 
 
 function SingleGE (){
+
+    const [EventModalOpen, setEventModalOpen] = useState(false);
+
+    const openEventModal = () => {
+
+        setEventModalOpen(true);
+    };
+
+    const closeEventModal = () => {
+
+        setEventModalOpen(false);
+
+    }; 
 
     return(
 
@@ -27,19 +40,30 @@ function SingleGE (){
                     <p className='events-title-single'>Events Title:</p>
                     <p className='events-title-single'>Events Description:</p>
 
-                    <button className='event-reg-btn'>Register for Event</button>
-
-
-
+                    <button className='event-reg-btn' onClick={openEventModal}>Register for Event</button>
 
 
                 </div>
 
 
-
-
-
             </section>
+
+
+            <EventsRegModal
+
+                isOpen={EventModalOpen}
+                onClose={closeEventModal}
+                // onUpdate={handleUpdateSubmit}
+                // name={votername}
+                // name={contact}
+
+                // onChange={(e) => {
+                // const { name, value } = e.target;
+                // if (name === 'namesvoter') setvotername(value);
+                // if (name === 'contact') setcontact(value);
+                // }}
+
+            />
         
         
         
