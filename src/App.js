@@ -45,6 +45,7 @@ function App() {
           <Route path ='/men-events/:id' element ={<SingleMenComponent/>}/>
           <Route path ='/ladies-events' element ={<LadiesComponent/>}/>
           <Route path ='/ladies-events/:id' element ={< SingleLadiesComponent/>}/>
+          
 
 
 
