@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../../../Components/navbar/nav'
-import SingleMen from '../../../Components/Events/men-Events/SingleMen'
+import SingleMenImport from '../../../Components/Events/Men-Events/singleMenEvents'
 import Footer from '../../../Components/footer/footer'
 
-function SingleYouthPages() {
+function SinglemenPages() {
 
 
   return (
@@ -12,7 +12,7 @@ function SingleYouthPages() {
     <>
 
         <Navbar/>
-        <Singlemen/>
+        <SingleMenImport/>
         <Footer/>
 
     
@@ -24,4 +24,4 @@ function SingleYouthPages() {
   )
 }
 
-export default SingleYouthPages
+export default SinglemenPages

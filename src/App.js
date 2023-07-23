@@ -12,8 +12,8 @@ import Teens from '../src/Pages/Events/Teens-Events/Teens'
 import SingleTeenComponent from '../src/Pages/Events/Teens-Events/SingleTeen'
 import YouthComponent from '../src/Pages/Events/Youth-Events/Youth'
 import SingleYouthComponent from '../src/Pages/Events/Youth-Events/SingleYouth'
-
-
+import MenComponent from '../src/Pages/Events/Men-Events/Men'
+import SingleMenComponent from '../src/Pages/Events/Men-Events/singleMen'
 
 
 function App() {
@@ -39,7 +39,9 @@ function App() {
           <Route path ='teen-events/:id' element ={<SingleTeenComponent/>}/>
           <Route path ='youth-events' element ={<YouthComponent/>}/>
           <Route path ='youth-events/:id' element ={<SingleYouthComponent/>}/>
-          
+          <Route path ='men-events' element ={<MenComponent/>}/>
+          <Route path ='men-events/:id' element ={<SingleMenComponent/>}/>
+
 
 
 
