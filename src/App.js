@@ -8,9 +8,9 @@ import GeneralEventsComponent from '../src/Pages/Events/General-Events/GE'
 import SingleGEComponent from '../src/Pages/Events/General-Events/Single-GE'
 import KidsEventsComponent from '../src/Pages/Events/Kids-Events/kidsEvents'
 import SingleKidsComponent from '../src/Pages/Events/Kids-Events/SingleKids'
-
-
-
+import Teens from '../src/Pages/Events/Teens-Events/Teens'
+import SingleTeenComponent from '../src/Pages/Events/Teens-Events/SingleTeen'
+import YouthComponent from '../src/Pages/Events/Youth-Events/Youth'
 
 function App() {
 
@@ -31,6 +31,9 @@ function App() {
           <Route path ='/general-events/:id' element ={<SingleGEComponent/>}/>
           <Route path ='/kids-events' element ={<KidsEventsComponent/>}/>
           <Route path ='kids-events/:id' element ={<SingleKidsComponent/>}/>
+          <Route path ='teen-events' element ={<Teens/>}/>
+          <Route path ='teen-events/:id' element ={<SingleTeenComponent/>}/>
+          <Route path ='youth-events' element ={<YouthComponent/>}/>
           
 
 
