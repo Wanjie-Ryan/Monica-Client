@@ -1,12 +1,23 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './kama.css'
 // import Men from '../../../Assets/homeImages/men.jpg'
 import KamaLogo from '../../../Assets/Ministries/KAMA.png'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import KamaModal from '../Ministries-Modal/min-Modal'
 
 
 function Kama() {
+
+    const [isKamaModalOpen, setKamaModalOpen] = useState(false);
+
+    const openKamaModal = () => {
+      setKamaModalOpen(true);
+    };
+  
+    const closeKamaModal = () => {
+      setKamaModalOpen(false);
+    }; 
 
 
     const KamaData =[
@@ -76,7 +87,7 @@ function Kama() {
 
 
 
-                    <div className="btn-container"><button className='kama-reg'>Become a KAMA member?</button></div>
+                    <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a KAMA member?</button></div>
 
 
 
@@ -90,6 +101,12 @@ function Kama() {
 
 
         </section>
+
+
+        <KamaModal
+            isOpen={isKamaModalOpen}
+            onClose={closeKamaModal}
+        />
 
 
     
