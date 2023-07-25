@@ -16,6 +16,8 @@ import MenComponent from '../src/Pages/Events/Men-Events/Men'
 import SingleMenComponent from '../src/Pages/Events/Men-Events/singleMen'
 import LadiesComponent from '../src/Pages/Events/Ladies-Events/Ladies'
 import SingleLadiesComponent from '../src/Pages/Events/Ladies-Events/SingleLadies'
+import KamaComponents from '../src/Pages/Ministries/kama/kama'
+
 
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
           <Route path ='/men-events/:id' element ={<SingleMenComponent/>}/>
           <Route path ='/ladies-events' element ={<LadiesComponent/>}/>
           <Route path ='/ladies-events/:id' element ={< SingleLadiesComponent/>}/>
+          <Route path ='/kama' element ={<KamaComponents/>}/>
+
           
 
 
