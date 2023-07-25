@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import churchView from '../../Assets/homeImages/church_view.jpg'
-import { Link } from 'react-scroll';
+import { Link as Scroll } from 'react-scroll';
 import mpesa from '../../Assets/homeImages/mpesa.png'
 import equity from '../../Assets/homeImages/brand.gif'
 import std from '../../Assets/homeImages/Standard_Chartered_logo.jpg'
@@ -15,7 +15,7 @@ import Kama from '../../Assets/Ministries/KAMA.png'
 import Mothers from  '../../Assets/Ministries/Mothers-union.png'
 import Brigade from '../../Assets/Ministries/brigade.png'
 import Youth from '../../Assets/Ministries/youth.png'
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -258,9 +258,9 @@ function Home() {
 
                     <div className="ministries-p">
 
-                      <p>The KAMA</p>
+                      <p className='title-p-min'>The KAMA</p>
 
-                      <p>More</p>
+                      <Link to='/kama' className='know-more-ministries'>More</Link>
 
 
                     </div>
@@ -278,9 +278,9 @@ function Home() {
 
                     <div className="ministries-p">
 
-                      <p>The MU</p>
+                      <p className='title-p-min'>The MU</p>
 
-                      <p>More</p>
+                      <Link to='/mothers-union' className='know-more-ministries'>More</Link>
 
 
                     </div>
@@ -298,9 +298,9 @@ function Home() {
 
                     <div className="ministries-p">
 
-                      <p>The KAYO</p>
+                      <p className='title-p-min'>The KAYO</p>
 
-                      <p>More</p>
+                      <Link to='/kayo' className='know-more-ministries'>More</Link>
 
 
                     </div>
@@ -318,9 +318,9 @@ function Home() {
 
                     <div className="ministries-p">
 
-                      <p>The BRIGADE</p>
+                      <p className='title-p-min'>The BRIGADE</p>
 
-                      <p>More</p>
+                      <Link to='/brigade' className='know-more-ministries'>More</Link>
 
 
                     </div>
@@ -350,7 +350,7 @@ function Home() {
 
                   <p className='project-desc'>Building a complex for the Youth</p>
 
-                  <Link
+                  <Scroll
                   
                   className='project-contribute'
                   activeClass="active"
@@ -363,7 +363,7 @@ function Home() {
                     
                     Contribute
                     
-                  </Link>
+                  </Scroll>
 
                 </div>
 
