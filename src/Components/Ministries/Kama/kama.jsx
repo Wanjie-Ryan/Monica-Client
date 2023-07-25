@@ -68,10 +68,15 @@ function Kama() {
 
                 <div className="kama-details">
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsum distinctio fugiat doloremque sit beatae magni libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima dolore qui reiciendis quas atque?</p>
+                    <p className="kama-desc-title">About KAMA</p>
+
+                    <p className='about-kama'> &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsum distinctio fugiat doloremque sit beatae magni libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima dolore qui reiciendis quas atque?</p>
+
+                    <p className='about-kama'> &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsum distinctio fugiat doloremque sit beatae magni libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima dolore qui reiciendis quas atque?</p>
 
 
 
+                    <div className="btn-container"><button className='kama-reg'>Become a KAMA member?</button></div>
 
 
 
