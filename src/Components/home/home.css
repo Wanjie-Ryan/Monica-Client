@@ -285,6 +285,58 @@
 
   }
 
+  
+  .ministries{
+
+    margin-top:50px;
+    margin-bottom: 70px;
+  }
+
+  .ministries-container{
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    /* gap:3rem; */
+    justify-content: space-around;
+    
+  }
+
+  .ministries-p{
+
+    display:flex;
+    flex-direction: row;
+    gap:1.4rem;
+    margin-top:15px;
+  }
+
+  .title-p-min{
+
+    font-size:15px;
+    font-weight: 600;
+    color:#693d56;
+  }
+
+  .know-more-ministries{
+
+    background-color: #693d56;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    padding: 5px;
+    font-size:12px;
+    text-decoration: none;
+
+  }
+
+  .know-more-ministries:hover{
+
+    background-color: #59372c;
+
+  }
+
   @media screen and (max-width:768px){
 
     .img-caro{
@@ -380,60 +432,27 @@
 
     }
 
+    .ministries-container{
 
-  }
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+        align-items: center;
+        
+    }
 
-  .ministries{
+    .ministries-p{
 
-    margin-top:50px;
-    margin-bottom: 70px;
-  }
+        margin-top:6px;
+    }
 
-  .ministries-container{
-
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    /* gap:3rem; */
-    justify-content: space-around;
-    
-  }
-
-  .ministries-p{
-
-    display:flex;
-    flex-direction: row;
-    gap:1.4rem;
-    margin-top:15px;
-  }
-
-  .title-p-min{
-
-    font-size:15px;
-    font-weight: 600;
-    color:#693d56;
-  }
-
-  .know-more-ministries{
-
-    background-color: #693d56;
-    color:white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    padding: 5px;
-    text-decoration: none;
-
-  }
-
-  .know-more-ministries:hover{
-
-    background-color: #59372c;
+   
 
   }
 
 
+
+ 
 
 
 
