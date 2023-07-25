@@ -11,6 +11,12 @@ import equity from '../../Assets/homeImages/brand.gif'
 import std from '../../Assets/homeImages/Standard_Chartered_logo.jpg'
 import YTVideo from '../../Assets/videos/Monica Updated Video.mp4'
 import FBVideo from '../../Assets/videos/Facebook Monica.mp4'
+import Kama from '../../Assets/Ministries/KAMA.png'
+import Mothers from  '../../Assets/Ministries/Mothers-union.png'
+import Brigade from '../../Assets/Ministries/brigade.png'
+import Youth from '../../Assets/Ministries/youth.png'
+
+
 
 
 function Home() {
@@ -234,6 +240,103 @@ function Home() {
 
 
             </div>
+
+
+            <div className="ministries">
+
+              <p className='prayer-title'>Church Departments</p> 
+
+              <div className="ministries-container">
+
+                <div className="ministries-mini">
+
+                    <div className="inner-ministry-cont">
+
+                      <img src={Kama} className='kama-img' alt ='kama'/>
+
+                    </div>
+
+                    <div className="ministries-p">
+
+                      <p>The KAMA</p>
+
+                      <p>More</p>
+
+
+                    </div>
+
+
+                </div>
+
+                <div className="ministries-mini">
+
+                    <div className="inner-ministry-cont">
+
+                      <img src={Mothers} className='kama-img' alt ='kama'/>
+
+                    </div>
+
+                    <div className="ministries-p">
+
+                      <p>The MU</p>
+
+                      <p>More</p>
+
+
+                    </div>
+
+
+                </div>
+
+                <div className="ministries-mini">
+
+                    <div className="inner-ministry-cont">
+
+                      <img src={Youth} className='kama-img' alt ='kama'/>
+
+                    </div>
+
+                    <div className="ministries-p">
+
+                      <p>The KAYO</p>
+
+                      <p>More</p>
+
+
+                    </div>
+
+
+                </div>
+
+                <div className="ministries-mini">
+
+                    <div className="inner-ministry-cont">
+
+                      <img src={Brigade} className='kama-img' alt ='kama'/>
+
+                    </div>
+
+                    <div className="ministries-p">
+
+                      <p>The BRIGADE</p>
+
+                      <p>More</p>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+              </div>
+
+
+            </div>
+
+
 
 
             <div className="projects">

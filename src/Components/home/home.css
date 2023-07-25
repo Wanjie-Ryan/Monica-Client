@@ -383,6 +383,29 @@
 
   }
 
+  .ministries{
+
+    margin-top:50px;
+    margin-bottom: 70px;
+  }
+
+  .ministries-container{
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    /* gap:3rem; */
+    justify-content: space-around;
+    
+  }
+
+  .ministries-p{
+
+    display:flex;
+    flex-direction: row;
+    gap:1.4rem;
+  }
+
 
 
 
