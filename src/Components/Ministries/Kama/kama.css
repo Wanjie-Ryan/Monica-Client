@@ -101,3 +101,35 @@
   background-color: #59372c;
 
 }
+
+@media screen and (max-width:768px){
+
+    .kama-container{
+
+        width:100%;
+        flex-direction:column;
+    }
+
+    .kama-img-cont{
+
+        width:100%;
+        margin-left:0px;
+    }
+
+    .img-kama{
+
+        width:500px;
+        height:400px;
+    }
+
+    .kama-details{
+
+        width:100%;
+    }
+
+    .about-kama{
+
+        text-align: center;
+    }
+
+}
