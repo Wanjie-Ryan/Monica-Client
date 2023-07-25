@@ -34,7 +34,7 @@ function Kama() {
         <section className="kama">
 
            <div className="kama-cont"> <img src={KamaLogo} alt ='kama-logo' className='kamalogo'/></div>
-            <p className='kama-title'>KAMA</p>
+            <p className='kama-title'>Kenya Anglican Men's Association</p>
 
             <div className='kama-container'>
 
@@ -67,6 +67,8 @@ function Kama() {
                 </div>
 
                 <div className="kama-details">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsum distinctio fugiat doloremque sit beatae magni libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima dolore qui reiciendis quas atque?</p>
 
 
 
