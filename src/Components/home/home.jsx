@@ -41,14 +41,14 @@ function Home() {
 
       id:3,
       image:require('../../Assets/homeImages/view.jpg'),
-      message:`ACK St.Monica's church Mugumo-ini`
+      message:`ACK St.Monica's church Mugumo-ini at night`
 
     },
 
     {
       id:4,
       image:require('../../Assets/homeImages/view 2.jpg'),
-      message:`ACK St.Monica's church Mugumo-ini at night`
+      message:`ACK St.Monica's church Mugumo-ini `
     },
 
     {
