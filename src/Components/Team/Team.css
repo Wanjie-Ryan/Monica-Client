@@ -12,3 +12,39 @@
     font-size:16px;
     font-weight:bold;
 }
+
+.team-container{
+
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.bishop{
+
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.img-bishop{
+
+    width:250px;
+    height:200px;
+    object-fit:cover;
+    border-radius:120px;
+    box-shadow: 0 2px 4px rgba(190, 55, 132, 0.3);
+    cursor: pointer;
+
+}
+
+.name-staff{
+
+    margin-top:5px;
+    font-weight:600;
+    color:#693d56;
+
+}

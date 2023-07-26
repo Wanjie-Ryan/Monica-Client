@@ -16,6 +16,17 @@ function Team() {
 
             <div className="team-container">
 
+                <div className="bishop">
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Bishop - xxxxxxxxxx</p>
+
+                    </div>
+
+                </div>
+
 
                 
                 
