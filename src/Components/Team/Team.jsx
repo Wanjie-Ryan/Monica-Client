@@ -104,7 +104,7 @@ function Team() {
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
                         <p className='name-staff'>The xxxxx </p>
-                        <p className='name-staff'>Mercy</p>
+                        <p className='name-staff'>Githae</p>
                     </div>
 
 
@@ -112,7 +112,7 @@ function Team() {
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
                         <p className='name-staff'>The xxxxx </p>
-                        <p className='name-staff'>Mercy</p>
+                        <p className='name-staff'>Dorcas Wambui</p>
 
                     </div>
 
