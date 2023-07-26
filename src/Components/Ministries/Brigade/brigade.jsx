@@ -1,13 +1,13 @@
 import React,{useState} from 'react'
 // import './kama.css'
 // import Men from '../../../Assets/homeImages/men.jpg'
-import youthLogo from '../../../Assets/Ministries/youth.png'
+import brigadeLogo from '../../../Assets/Ministries/brigade.png'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
-import YouthModal from './min-Modal'
+import BrigadeModal from './min-Modal'
 
 
-function Kayo() {
+function Brigade() {
 
     const [isKamaModalOpen, setKamaModalOpen] = useState(false);
 
@@ -49,8 +49,8 @@ function Kayo() {
 
         <section className="kama">
 
-           <div className="kama-cont"> <img src={youthLogo} alt ='kama-logo' className='kamalogo'/></div>
-            <p className='kama-title'>Kenya Anglican Youth Organization</p>
+           <div className="kama-cont"> <img src={brigadeLogo} alt ='kama-logo' className='kamalogo'/></div>
+            <p className='kama-title'>The Brigade</p>
 
             <div className='kama-container'>
 
@@ -84,7 +84,7 @@ function Kayo() {
 
                 <div className="kama-details">
 
-                    <p className="kama-desc-title">About KAYO</p>
+                    <p className="kama-desc-title">About The Brigade</p>
 
                     <p className='about-kama'> &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsum distinctio fugiat doloremque sit beatae magni libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima dolore qui reiciendis quas atque?</p>
 
@@ -92,7 +92,7 @@ function Kayo() {
 
 
 
-                    <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a KAYO member?</button></div>
+                    <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a Brigade member?</button></div>
 
 
 
@@ -108,7 +108,7 @@ function Kayo() {
         </section>
 
 
-        <YouthModal
+        <BrigadeModal
         
             isOpen={isKamaModalOpen}
             onClose={closeKamaModal}
@@ -124,4 +124,4 @@ function Kayo() {
   )
 }
 
-export default Kayo
+export default Brigade

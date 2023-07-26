@@ -115,6 +115,14 @@ function Home() {
 
     },
 
+    {
+
+      id:13,
+      image:require('../../Assets/homeImages/youth.jpg'),
+      message:'The Youth'
+
+    },
+
 
 
 

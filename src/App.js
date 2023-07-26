@@ -19,7 +19,7 @@ import SingleLadiesComponent from '../src/Pages/Events/Ladies-Events/SingleLadie
 import KamaComponents from '../src/Pages/Ministries/kama/kama'
 import MuComponents from '../src/Pages/Ministries/Mu/mu'
 import YouthComponents from '../src/Pages/Ministries/Kayo/youth'
-
+import BrigadeComponents from '../src/Pages/Ministries/Brigade/brigade'
 
 
 
@@ -53,6 +53,8 @@ function App() {
           <Route path ='/kama' element ={<KamaComponents/>}/>
           <Route path ='/mothers-union' element ={<MuComponents/>}/>
           <Route path ='/kayo' element ={<YouthComponents/>}/>
+          <Route path ='/brigade' element ={<BrigadeComponents/>}/>
+
 
 
           
