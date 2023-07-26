@@ -23,7 +23,9 @@ function Team() {
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Bishop - xxxxxxxxxx</p>
+                        <p className='name-staff'>The Bishop</p>
+                        <p className='name-staff'>xxxxxx</p>
+
 
                     </div>
 
@@ -34,14 +36,18 @@ function Team() {
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - John</p>
+                        <p className='name-staff'>The Vicar</p>
+                        <p className='name-staff'>John</p>
+
 
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The xxxxx - Mercy</p>
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
+
 
                     </div>
 
@@ -54,7 +60,8 @@ function Team() {
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - John</p>
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
@@ -62,29 +69,29 @@ function Team() {
                     <div className="bishop-img-cont">
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The xxxxx - Mercy</p>
-
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - John</p>
-
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The xxxxx - Mercy</p>
-
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - John</p>
-
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
                     </div>
 
                     
@@ -96,36 +103,40 @@ function Team() {
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - Githae</p>
-
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
                     </div>
 
 
                     <div className="bishop-img-cont">
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The xxxxx - Dorcas Wambui</p>
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - John</p>
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The xxxxx - Mercy</p>
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - John</p>
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
@@ -139,36 +150,39 @@ function Team() {
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Secretary - Racheal</p>
-
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
                     </div>
 
 
                     <div className="bishop-img-cont">
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Head Kitchen - Dorcas Wambui</p>
+                        <p className='name-staff'>The Head Kitchen </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Vicar - John</p>
+                        <p className='name-staff'>The xxxxx </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={mercy} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Cleaner - Mercy</p>
-
+                        <p className='name-staff'>The cleaner </p>
+                        <p className='name-staff'>Mercy</p>
                     </div>
 
                     <div className="bishop-img-cont">
 
                         <img src ={vicar} alt ='bishop' className='img-bishop'/>
-                        <p className='name-staff'>The Organizer - John</p>
+                        <p className='name-staff'>The Organizer </p>
+                        <p className='name-staff'>Mercy</p>
 
                     </div>
 
