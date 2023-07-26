@@ -99,6 +99,30 @@ function Gallery (){
     
         },
     
+        {
+    
+          id:13,
+          image:require('../../Assets/homeImages/youth.jpg'),
+          message:'What do you know, we also win awards'
+    
+        },
+
+        {
+    
+          id:14,
+          image:require('../../Assets/homeImages/youth2.jpg'),
+          message:'What do you know, we also win awards'
+    
+        },
+
+        {
+    
+          id:15,
+          image:require('../../Assets/homeImages/youth3.jpg'),
+          message:'What do you know, we also win awards'
+    
+        }
+    
     
     
     
