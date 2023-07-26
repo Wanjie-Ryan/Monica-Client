@@ -101,6 +101,7 @@
     .name-staff{
 
         font-size:13px;
+        text-align: center;
     }
 
     .vicar{
@@ -137,5 +138,65 @@
 
     }
 
-    
+}
+
+@media screen and (max-width:820px){
+
+    /* .team-title{
+
+        font-size:14px;
+    } */
+
+    /* .team-container{
+
+        width:90%;
+    } */
+
+    /* .img-bishop{
+
+        width:90px;
+        height:100px;
+    } */
+
+    .name-staff{
+
+        font-size:13px;
+        text-align: center;
+    }
+
+    .vicar{
+
+        gap:1rem;
+    }
+
+    .support-clergy{
+
+        display:flex;
+        flex-wrap: wrap;
+        gap:0.2rem;
+    }
+
+    .support-clergy .bishop-img-cont{
+
+        flex-basis: 33.33%; 
+        padding: 5px; 
+
+
+    }
+
+    .sunday-school{
+
+        display:flex;
+        flex-wrap: wrap;
+        gap:0.2rem;
+    }
+
+    .sunday-school .bishop-img-cont{
+
+        flex-basis: 33.33%; 
+        padding: 8px; 
+
+    }
+
+
 }
