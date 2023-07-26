@@ -76,6 +76,10 @@ function Footer() {
                         <Link to ='/contact' className ='footer-links-p'><p>Contact</p></Link>
                         <Link to ='/events' className ='footer-links-p'><p>Events</p></Link>
                         <Link to ='/gallery' className ='footer-links-p'><p>Gallery</p></Link>
+                        <Link to ='/announce'  className='footer-links-p'><p>Announcements</p></Link>
+                        <Link to ='/team'  className='footer-links-p'><p>Team</p></Link>
+
+
 
 
                     </div>

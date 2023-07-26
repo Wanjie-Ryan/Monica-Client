@@ -230,6 +230,8 @@ function Navbar() {
                     <hr></hr>
                     <Link to ='/announce'  className='nav-p'><p className ='side-links'>Announcements</p></Link>
                     <hr></hr>
+                    <Link to ='/team'  className='nav-p'><p className ='side-links'>Team</p></Link>
+
                    
 
                 </div>
