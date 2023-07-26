@@ -2,6 +2,8 @@ import React from 'react'
 import './Team.css'
 import vicar from '../../Assets/homeImages/vicar.jpg'
 import mercy from '../../Assets/homeImages/mercy.jpg'
+import support1 from '../../Assets/homeImages/support-1.jpg'
+
 
 
 function Team() {
@@ -24,6 +26,68 @@ function Team() {
                         <p className='name-staff'>The Bishop - xxxxxxxxxx</p>
 
                     </div>
+
+                </div>
+
+                <div className='vicar'>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - John</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={mercy} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The xxxxx - Mercy</p>
+
+                    </div>
+
+
+                </div>
+
+
+                <div className="support-clergy">
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - John</p>
+
+                    </div>
+
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={mercy} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The xxxxx - Mercy</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - John</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={mercy} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The xxxxx - Mercy</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - John</p>
+
+                    </div>
+
+                    
 
                 </div>
 

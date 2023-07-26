@@ -48,3 +48,23 @@
     color:#693d56;
 
 }
+
+.vicar{
+
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    gap:4rem;
+    justify-content: center;
+}
+
+.support-clergy{
+
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: center;
+}
