@@ -6,7 +6,7 @@ import {MdEmail} from 'react-icons/md'
 import {BiCurrentLocation} from 'react-icons/bi'
 
 
-function MuRegsiter({ isOpen, onClose, onUpdate, votername, contact, onChange, errmsg }) {
+function KayoRegsiter({ isOpen, onClose, onUpdate, votername, contact, onChange, errmsg }) {
 
 
   return (
@@ -23,7 +23,7 @@ function MuRegsiter({ isOpen, onClose, onUpdate, votername, contact, onChange, e
 
         <div className ='modal-content-main'>
 
-                <h2>Register As a Mothers' Union</h2>
+                <h2>Register As a KAYO</h2>
 
                 <div className ='name'>
 
@@ -76,4 +76,4 @@ function MuRegsiter({ isOpen, onClose, onUpdate, votername, contact, onChange, e
   )
 }
 
-export default MuRegsiter 
+export default KayoRegsiter 

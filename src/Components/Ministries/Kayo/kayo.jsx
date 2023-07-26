@@ -1,13 +1,13 @@
 import React,{useState} from 'react'
 // import './kama.css'
 // import Men from '../../../Assets/homeImages/men.jpg'
-import MuLogo from '../../../Assets/Ministries/Mothers-union.png'
+import youthLogo from '../../../Assets/Ministries/youth.png'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
-import MuModal from './min-Modal'
+import YouthModal from './min-Modal'
 
 
-function MothersUnion() {
+function Kayo() {
 
     const [isKamaModalOpen, setKamaModalOpen] = useState(false);
 
@@ -44,8 +44,8 @@ function MothersUnion() {
 
         <section className="kama">
 
-           <div className="kama-cont"> <img src={MuLogo} alt ='kama-logo' className='kamalogo'/></div>
-            <p className='kama-title'>Mothers' Union</p>
+           <div className="kama-cont"> <img src={youthLogo} alt ='kama-logo' className='kamalogo'/></div>
+            <p className='kama-title'>Kenya Anglican Youth Organization</p>
 
             <div className='kama-container'>
 
@@ -87,7 +87,7 @@ function MothersUnion() {
 
 
 
-                    <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a MU member?</button></div>
+                    <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a KAYO member?</button></div>
 
 
 
@@ -103,7 +103,7 @@ function MothersUnion() {
         </section>
 
 
-        <MuModal
+        <YouthModal
         
             isOpen={isKamaModalOpen}
             onClose={closeKamaModal}
@@ -119,4 +119,4 @@ function MothersUnion() {
   )
 }
 
-export default MothersUnion
+export default Kayo
