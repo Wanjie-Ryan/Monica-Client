@@ -68,3 +68,40 @@
     gap:2rem;
     justify-content: center;
 }
+
+.sunday-school{
+
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:768px){
+
+    .team-title{
+
+        font-size:14px;
+    }
+
+    .team-container{
+
+        width:100%;
+    }
+
+    .img-bishop{
+
+        width:90px;
+        height:100px;
+    }
+
+    .vicar{
+
+        gap:1rem;
+    }
+
+    
+}

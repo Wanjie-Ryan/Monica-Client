@@ -91,6 +91,92 @@ function Team() {
 
                 </div>
 
+                <div className="sunday-school">
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - Githae</p>
+
+                    </div>
+
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={mercy} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The xxxxx - Dorcas Wambui</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - John</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={mercy} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The xxxxx - Mercy</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - John</p>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div className="sunday-school">
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Secretary - Racheal</p>
+
+                    </div>
+
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={mercy} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Head Kitchen - Dorcas Wambui</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Vicar - John</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={mercy} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Cleaner - Mercy</p>
+
+                    </div>
+
+                    <div className="bishop-img-cont">
+
+                        <img src ={vicar} alt ='bishop' className='img-bishop'/>
+                        <p className='name-staff'>The Organizer - John</p>
+
+                    </div>
+
+
+
+
+                </div>
+
 
                 
                 
