@@ -42,13 +42,6 @@ function ContModal({ isOpen, onClose, }) {
 
                     <tr className="row-even">
 
-                      <td>Sunday</td>
-                      <td>Open All Day</td>
-                      
-                    </tr>
-
-                    <tr className="row-even">
-
                       <td>Monday</td>
                       <td>8:00Am - 5:00Pm</td>
                       

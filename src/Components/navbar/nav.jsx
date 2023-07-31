@@ -245,15 +245,7 @@ function Navbar() {
             <RegisterModal
                 isOpen={regModalOpen}
                 onClose={closeRegModal}
-                // onUpdate={handleUpdateSubmit}
-                // name={votername}
-                // name={contact}
-
-                // onChange={(e) => {
-                // const { name, value } = e.target;
-                // if (name === 'namesvoter') setvotername(value);
-                // if (name === 'contact') setcontact(value);
-                // }}
+                
 
             />
 
