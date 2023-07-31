@@ -14,12 +14,12 @@ function ContModal({ isOpen, onClose, }) {
       isOpen={isOpen}
       onRequestClose={onClose}
       contentLabel="Contact Modal"
-      className="modal-content update-modal-content"
+      className="modal-contents update-modal-content"
       overlayClassName="modal-overlay"
 
     >
 
-        <div className ='modal-content-main'>
+        <div className ='modal-content-main-contact'>
 
             <h2>Office Working Hours</h2>
 
