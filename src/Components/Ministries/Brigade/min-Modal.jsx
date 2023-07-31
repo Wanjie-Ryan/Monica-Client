@@ -6,7 +6,7 @@ import {MdEmail} from 'react-icons/md'
 import {BiCurrentLocation} from 'react-icons/bi'
 
 
-function BrigadeRegsiter({ isOpen, onClose, onUpdate, votername, contact, onChange, errmsg }) {
+function BrigadeRegsiter({ isOpen, onClose }) {
 
 
   return (
@@ -23,50 +23,14 @@ function BrigadeRegsiter({ isOpen, onClose, onUpdate, votername, contact, onChan
 
         <div className ='modal-content-main'>
 
-                <h2>Register As a Brigade</h2>
+                <h2>Brigade Registration</h2>
 
-                <div className ='name'>
+                <p>Download the form below and submit it physically to the church offices</p>
 
-                    <BsFillPersonFill/>
-
-                    <input type="text" name="namesvoter" placeholder ='Enter Your name' value={votername} onChange={onChange} />
-
-                </div>
-
-                <div className ='name'>
-
-                    <MdEmail/>
-
-                    <input type="text" name="namesvoter" placeholder ='Enter your email' value={votername} onChange={onChange} />
-
-                </div>
-
-                <div className ='name'>
-
-                    <BiCurrentLocation/>
-
-                    <input type="text" name="namesvoter" placeholder ='Where do you reside?' value={votername} onChange={onChange} />
-
-                </div>
-
-
-                <div className="name">
-                    
-                  <BsFillTelephoneFill/>
-
-
-                  <input type="text" name="contact" placeholder ='Enter Your PhoneNumber' value={contact} onChange={onChange} />
-
-                   
-                </div>
-
-
-                
-
-                <button onClick={onUpdate} className='update-modal-button' >Submit</button>
+               
+                <button  className='update-modal-button' >Download form</button>
                 <button onClick={onClose} className ='modal-close-button'>Cancel</button>
 
-                {/* {errmsg && <p className ='error'>{errmsg}</p>} */}
 
         </div>
 

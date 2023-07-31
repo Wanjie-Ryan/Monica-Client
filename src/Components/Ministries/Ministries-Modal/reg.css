@@ -16,8 +16,8 @@
 
     background-color: #fff;
     padding: 20px;
-    max-width: 700px;
-    height:600px;
+    max-width: 500px;
+    height:300px;
     display:flex;
     flex-direction:column;
     
@@ -34,8 +34,8 @@
     margin-top:20px;
     display:flex;
     flex-direction:column;
-    width: 600px;
-    height:600px;
+    width: 350px;
+    height:300px;
     gap: 0.6rem;
     align-items: center;
 
