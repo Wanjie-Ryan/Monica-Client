@@ -16,7 +16,7 @@ function EventRegModal({ isOpen, onClose, onUpdate, votername, contact,  onChang
       isOpen={isOpen}
       onRequestClose={onClose}
       contentLabel="Register Modal"
-      className="modal-content update-modal-content"
+      className="modal-contents update-modal-content"
       overlayClassName="modal-overlay"
 
     >
