@@ -196,10 +196,10 @@ function Navbar() {
                 <div className="side-details">
 
 
-                    <button className='for-new-users side-btn' onClick={openRegModal}>Become a Member</button>
-                    <Link to ="/" className='nav-p'><p className ='side-links'>Home</p></Link>
+                    <button className='for-new-users side-btn' onClick ={handleNav} onClick={openRegModal}>Become a Member</button>
+                    <Link to ="/" className='nav-p' onClick ={handleNav}><p className ='side-links'>Home</p></Link>
                     <hr></hr>
-                    <Link to ='/contact' className='nav-p'><p className ='side-links'>Contact</p></Link>
+                    <Link to ='/contact' className='nav-p' onClick ={handleNav}><p className ='side-links'>Contact</p></Link>
                     <hr></hr>
 
                     <p className ='side-links' onClick ={setShowEvents}>Events</p>
@@ -208,17 +208,17 @@ function Navbar() {
 
                             <div className='events'>
 
-                                <Link to ='/general-events' className='nav-p'><p className ='side-links'>General Events</p></Link>
+                                <Link to ='/general-events' className='nav-p' onClick ={handleNav}><p className ='side-links'>General Events</p></Link>
                                     <hr></hr>
-                                <Link to ='/kids-events' className='nav-p'><p className ='side-links'>Events for Kids</p></Link>
+                                <Link to ='/kids-events' className='nav-p' onClick ={handleNav}><p className ='side-links'>Events for Kids</p></Link>
                                     <hr></hr>
-                                <Link to ='/teen-events' className='nav-p'><p className ='side-links'>Events for Teens</p></Link>
+                                <Link to ='/teen-events' className='nav-p' onClick ={handleNav}><p className ='side-links'>Events for Teens</p></Link>
                                     <hr></hr>
-                                <Link to ='/youth-events' className='nav-p'><p className ='side-links'>Events for Youths</p></Link>
+                                <Link to ='/youth-events' className='nav-p' onClick ={handleNav}><p className ='side-links'>Events for Youths</p></Link>
                                     <hr></hr>
-                                <Link to ='/men-events' className='nav-p'><p className ='side-links'>Events for Men</p></Link>
+                                <Link to ='/men-events' className='nav-p' onClick ={handleNav}><p className ='side-links'>Events for Men</p></Link>
                                     <hr></hr>
-                                <Link to ='/ladies-events' className='nav-p'><p className ='side-links'>Events for Ladies</p></Link>
+                                <Link to ='/ladies-events' className='nav-p' onClick ={handleNav}><p className ='side-links'>Events for Ladies</p></Link>
 
                             </div>
                          
@@ -226,11 +226,11 @@ function Navbar() {
 
                     
                     <hr></hr>
-                    <Link to ='/gallery' className='nav-p'><p className ='side-links'>Gallery</p></Link>
+                    <Link to ='/gallery' className='nav-p' onClick ={handleNav}><p className ='side-links'>Gallery</p></Link>
                     <hr></hr>
-                    <Link to ='/announce'  className='nav-p'><p className ='side-links'>Announcements</p></Link>
+                    <Link to ='/announce'  className='nav-p' onClick ={handleNav}><p className ='side-links'>Announcements</p></Link>
                     <hr></hr>
-                    <Link to ='/team'  className='nav-p'><p className ='side-links'>Team</p></Link>
+                    <Link to ='/team'  className='nav-p' onClick ={handleNav}><p className ='side-links'>Team</p></Link>
 
                    
 
