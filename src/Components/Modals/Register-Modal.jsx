@@ -26,7 +26,7 @@ function Regsiter({ isOpen, onClose }) {
                 <p className='modal-note'>Download the Registration form below and submit it physically to the church office.</p>
                 
 
-                <a href={memebershipForm}><button  className='update-modal-button' > Download form</button></a>
+                <a href={memebershipForm} download><button  className='update-modal-button' > Download form</button></a>
                 <button onClick={onClose} className ='modal-close-button'>Cancel</button>
 
         </div>
