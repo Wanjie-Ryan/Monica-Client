@@ -196,7 +196,7 @@ function Navbar() {
                 <div className="side-details">
 
 
-                    <button className='for-new-users side-btn' onClick ={handleNav} onClick={openRegModal}>Become a Member</button>
+                    <button className='for-new-users side-btn'  onClick={openRegModal}>Become a Member</button>
                     <Link to ="/" className='nav-p' onClick ={handleNav}><p className ='side-links'>Home</p></Link>
                     <hr></hr>
                     <Link to ='/contact' className='nav-p' onClick ={handleNav}><p className ='side-links'>Contact</p></Link>

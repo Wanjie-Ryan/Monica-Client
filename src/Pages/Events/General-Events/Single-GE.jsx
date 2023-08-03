@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../../../Components/navbar/nav'
-import SingleGeneralEvents from '../../../Components/Events/General-Events/Single-GE'
-import Footer from '../../../Components/footer/footer'
+import Navbar from '../../../../../../Monica Client/user/src/Components/navbar/nav'
+import SingleGeneralEvents from '../../../../../../Monica Client/user/src/Components/Events/General-Events/Single-GE'
+import Footer from '../../../../../../Monica Client/user/src/Components/footer/footer'
 
 function GEPages() {
 

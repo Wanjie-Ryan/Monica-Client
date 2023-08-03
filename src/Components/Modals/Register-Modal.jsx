@@ -1,7 +1,7 @@
 import React from 'react'
 import './reg.css'
 import Modal from 'react-modal'
-
+import memebershipForm from '../../Assets/MEMBERSHIP FORM-2022.pdf'
 
 
 function Regsiter({ isOpen, onClose }) {
@@ -26,7 +26,7 @@ function Regsiter({ isOpen, onClose }) {
                 <p className='modal-note'>Download the Registration form below and submit it physically to the church office.</p>
                 
 
-                <button  className='update-modal-button' > Download form</button>
+                <a href={memebershipForm}><button  className='update-modal-button' > Download form</button></a>
                 <button onClick={onClose} className ='modal-close-button'>Cancel</button>
 
         </div>
