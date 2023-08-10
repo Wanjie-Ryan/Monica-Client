@@ -110,6 +110,21 @@
   .upcoming-title {
     text-align: center;
   }
+
+  .current-events-p{
+    font-size:17px;
+  }
+  .actual-dates{
+
+    font-size:15px;
+  }
+  .reg-dates{
+    font-size:15px;
+  }
+  .events-desc-p-{
+
+    font-size:15px;
+  }
 }
 
 .search {
