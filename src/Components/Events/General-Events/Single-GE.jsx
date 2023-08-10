@@ -30,7 +30,7 @@ function SingleGE() {
         setLoading(true);
 
         const singleGeEvent = await axios.get(
-          `http://localhost:3005/api/clergy/events/singleevent/${id}`
+          `https://monica-server.onrender.com/api/clergy/events/singleevent/${id}`
         );
 
         const singleEve = singleGeEvent.data.singleEvent;

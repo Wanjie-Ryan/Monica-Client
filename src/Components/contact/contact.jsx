@@ -51,7 +51,7 @@ function Contact() {
       };
 
       const postData = await axios.post(
-        "http://localhost:3005/api/user/feedback",
+        "https://monica-server.onrender.com/api/user/feedback",
         submissionData
       );
 
