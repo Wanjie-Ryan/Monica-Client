@@ -1,463 +1,375 @@
-.home{
-
-    width:100%;
-    margin-bottom:50px;
-    /* background-color: white; */
-    /* background-color: rgba(248, 245, 245, 0.473); */
-    /* background-color:rgba(190, 55, 132, 0.3) */
+.home {
+  width: 100%;
+  margin-bottom: 50px;
+  /* background-color: white; */
+  /* background-color: rgba(248, 245, 245, 0.473); */
+  /* background-color:rgba(190, 55, 132, 0.3) */
 }
 
-.header-title{
-    text-align:center;
-    margin-top:20px;
-    font-size: 24px;
-    font-weight:bold;
-    color:#693d56;
+.header-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #693d56;
 }
 
-.home-intro{
-
-    margin-top:30px;
-    width:93%;
-    margin-left:auto;
-    margin-right:auto;
-
+.home-intro {
+  margin-top: 30px;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.legend{
-
-    font-size: 18px;
-    color:#693d56;
-    font-weight: 600;
+.legend {
+  font-size: 18px;
+  color: #693d56;
+  font-weight: 600;
 }
 
-.img-caro{
-
-    /* width:300px; */
-    width:100%;
-    height: 700px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(105, 61, 86, 0.3);
-    cursor: pointer;
+.img-caro {
+  /* width:300px; */
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(105, 61, 86, 0.3);
+  cursor: pointer;
 }
 
-.targets{
-
-    display:flex;
-    flex-direction:row;
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right:auto;
-    gap:2rem;
+.targets {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
 }
 
-.mission{
-
-    width:30%;
-    background: linear-gradient(45deg, #a55aaa, #63467a);
-    color:white;
-    padding: 20px;
-    border-radius:10px;
+.mission {
+  width: 30%;
+  background: linear-gradient(45deg, #a55aaa, #63467a);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.mission-titles{
-
-    text-align:center;
-    font-size:20px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.mission-titles {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.inner-p-marks{
-
-    font-size:15px;
-    text-align: center;
-    margin-top:10px;
+.inner-p-marks {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.projects{
-
-    margin-top:20px;
+.projects {
+  margin-top: 20px;
 }
 
-.church-projects-container{
-
-    position: relative;
+.church-projects-container {
+  position: relative;
 }
 
-.projects-title{
-
-    font-size:20px;
-    font-weight: bold;
-    color:#693d56;
+.projects-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #693d56;
 }
 
-.container{
+.container {
+  width: 30%;
+  height: 300px;
 
-    width:30%;
-    height:300px;
-    
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-.church-projects{
-
-    width:300px;
-    height:300px;
-    object-fit: cover;
-    margin-top: 20px;
-    box-shadow: 0 2px 4px rgba(190, 55, 132, 0.3);
-    border-radius: 12px;
-    position:absolute;
-    cursor: pointer;
+.church-projects {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(190, 55, 132, 0.3);
+  border-radius: 12px;
+  position: absolute;
+  cursor: pointer;
 }
 
-
-.project-desc{
-
-    position:relative;
-    top:20px;
-    color:#693d56;
-    left:5px;
-    font-size: 15px;
-    font-weight: bold;
+.project-desc {
+  position: relative;
+  top: 20px;
+  color: #693d56;
+  left: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.project-contribute{
-
-    position:relative;
-    top:250px;
-    left:150px;
-    padding: 6px;
-    width:120px;
-    background-color: #693d56;
-    color: white;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    text-decoration: none;
-    
+.project-contribute {
+  position: relative;
+  top: 250px;
+  left: 150px;
+  padding: 6px;
+  width: 120px;
+  background-color: #693d56;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
 }
 
-.project-contribute:hover{
-
-    background-color: #59372c;
-
+.project-contribute:hover {
+  background-color: #59372c;
 }
 
-.prayer-cells{
-
-    margin-top: 40px;
+.prayer-cells {
+  margin-top: 40px;
 }
 
-.prayer-title{
-
-    font-size:20px;
-    font-weight: bold;
-    color:#693d56;
+.prayer-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #693d56;
 }
 
-.prayer-desc{
-
-    width:100%;
-    background-color:#de9973;
-    padding:5px;
-    margin-top: 10px;
+.prayer-desc {
+  width: 100%;
+  background-color: #de9973;
+  padding: 5px;
+  margin-top: 10px;
 }
 
-.prayer-meeting{
-
-    text-align: center;
-    margin-top:10px;
-    font-size:20px;
-    font-weight:600;
+.prayer-meeting {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .table-container {
-    max-width: 400px; /* Adjust the width as needed */
-    margin: 20px auto;
-  }
-  
-  .custom-table {
+  max-width: 400px; /* Adjust the width as needed */
+  margin: 20px auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+.custom-table th {
+  background-color: #59372c;
+}
+
+.custom-table tr.row-even {
+  background: linear-gradient(45deg, #a55aaa, #63467a);
+}
+
+.donate {
+  margin-top: 60px;
+}
+
+.contribution {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+}
+
+.offering {
+  width: 35%;
+}
+
+.mpesa {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.accounts {
+  font-weight: bold;
+}
+
+.eq-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.fellowship {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.fellow-videos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.yt {
+  width: 50%;
+}
+
+.yt-video {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.external-links {
+  text-decoration: none;
+  color: white;
+  background-color: #693d56;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.external-links:hover {
+  background-color: #59372c;
+}
+
+.ministries {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.ministries-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  /* gap:3rem; */
+  justify-content: space-around;
+}
+
+.ministries-p {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+  margin-top: 15px;
+}
+
+.title-p-min {
+  font-size: 15px;
+  font-weight: 600;
+  color: #693d56;
+}
+
+.know-more-ministries {
+  background-color: #693d56;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  padding: 5px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.know-more-ministries:hover {
+  background-color: #59372c;
+}
+
+@media screen and (max-width: 768px) {
+  .img-caro {
     width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .custom-table th,
-  .custom-table td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    color: white;
-  }
-  
-  .custom-table th {
-    background-color: #59372c;
-  }
-  
-  .custom-table tr.row-even {
-    background: linear-gradient(45deg, #a55aaa, #63467a);
+    height: 400px;
   }
 
-  .donate{
-
-    margin-top:60px;
-  }
-  
-  .contribution{
-
-    width:100%;
-    display:flex;
-    flex-direction:row;
-    margin-top: 20px;
-    margin-left:auto;
-    margin-right:auto;
-    gap:2rem;
+  .legend {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
   }
 
-  .offering{
-
-    width:35%;
-    
-   
+  .fellow-videos {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+    /* margin-right:auto; */
   }
 
-  .mpesa{
-
-    width:100px;
-    height:150px;
-    object-fit:cover;
-    border-radius:10px;
+  .external-links {
+    text-align: center;
   }
 
-  .accounts{
-
-    font-weight:bold;
+  .targets {
+    flex-direction: column;
+    /* width:100%; */
   }
 
-  .eq-title{
-
-    font-weight:bold;
-    font-size:20px;
-    margin-bottom: 5px;
+  .mission {
+    width: 100%;
   }
 
-  .fellowship{
-
-    margin-top:50px;
-    width:100%;
+  .prayer-title {
+    text-align: center;
   }
 
-  .fellow-videos{
-
-    margin-top:20px;
-    display:flex;
-    flex-direction:row;
-    gap:1rem;
+  .church-projects {
+    width: 90%;
   }
 
-  .yt{
-
-    width:50%;
-
+  .project-desc {
+    font-size: 19px;
+    width: 350px;
+    top: 20px;
+    text-align: center;
   }
 
-  .yt-video{
-
-    width:300px;
-    height:250px;
-    border-radius: 20px;
-    cursor:pointer;
+  .project-contribute {
+    /* top:190px; */
+    left: 100px;
   }
 
-  .external-links{
-
-    text-decoration: none;
-    color:white;
-    background-color: #693d56;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-    
+  .prayer-cells {
+    margin-top: 70px;
   }
 
-  .external-links:hover{
-
-    background-color: #59372c;
-
+  .contribution {
+    flex-direction: column;
   }
 
-  
-  .ministries{
-
-    margin-top:50px;
-    margin-bottom: 70px;
+  .offering {
+    width: 100%;
   }
 
-  .ministries-container{
+  .offering p {
+    text-align: center;
+    margin-top: 5px;
+  }
 
-    margin-top: 40px;
+  .mpesa {
+    width: 320px;
+  }
+
+  .ministries-container {
     display: flex;
-    flex-direction: row;
-    /* gap:3rem; */
-    justify-content: space-around;
-    
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
   }
 
-  .ministries-p{
-
-    display:flex;
-    flex-direction: row;
-    gap:1.4rem;
-    margin-top:15px;
+  .ministries-p {
+    margin-top: 6px;
   }
-
-  .title-p-min{
-
-    font-size:15px;
-    font-weight: 600;
-    color:#693d56;
-  }
-
-  .know-more-ministries{
-
-    background-color: #693d56;
-    color:white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    padding: 5px;
-    font-size:12px;
-    text-decoration: none;
-
-  }
-
-  .know-more-ministries:hover{
-
-    background-color: #59372c;
-
-  }
-
-  @media screen and (max-width:768px){
-
-    .img-caro{
-
-        width:100%;
-        height:400px;
-
-    }
-
-    .legend{
-
-        font-size:15px;
-        text-align: center;
-        margin-top:10px;
-    }
-
-    .fellow-videos{
-
-        flex-direction: column;
-        width:100%;
-        margin-left: 30px;
-        /* margin-right:auto; */
-    }
-
-    .external-links{
-
-        text-align:center;
-        
-    }
-
-    .targets{
-
-        flex-direction: column;
-        /* width:100%; */
-    }
-
-    .mission{
-
-        width:100%;
-    }
-
-    .prayer-title{
-
-        text-align:center;
-    }
-
-    .church-projects{
-
-        width:90%;
-
-    }
-
-    .project-desc{
-
-        font-size:19px;
-        width:350px;
-        top:20px;
-        text-align:center;
-        
-    }
-
-    .project-contribute{
-
-        /* top:190px; */
-        left:100px;
-    }
-
-    .prayer-cells{
-
-        margin-top:70px;
-    }
-
-    .contribution{
-
-        flex-direction:column;
-    }
-
-    .offering{
-
-        width:100%;
-       
-    }
-
-    .offering p{
-
-        text-align: center;
-        margin-top:5px;
-    }
-
-    .mpesa{
-
-        width:320px;
-
-    }
-
-    .ministries-container{
-
-        display:flex;
-        flex-direction:column;
-        gap:1rem;
-        align-items: center;
-        
-    }
-
-    .ministries-p{
-
-        margin-top:6px;
-    }
-
-   
-
-  }
-
-
-
- 
-
-
-
-
-
+}
