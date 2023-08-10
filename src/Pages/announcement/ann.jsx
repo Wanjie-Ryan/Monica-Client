@@ -1,27 +1,16 @@
-import React from 'react'
-import Navbar from '../../Components/navbar/nav'
-import Announcement from '../../Components/announcement/ann'
-import Footer from '../../Components/footer/footer'
+import React from "react";
+import Navbar from "../../Components/navbar/nav";
+import Announcement from "../../Components/announcement/ann";
+import Footer from "../../Components/footer/footer";
 
 function AnnouncementPages() {
-
-
   return (
-
-
     <>
-
-        <Navbar/>
-        <Announcement/>
-        <Footer/>
-
-    
-    
+      <Navbar />
+      <Announcement />
+      <Footer />
     </>
-
-
-
-  )
+  );
 }
 
-export default AnnouncementPages  
+export default AnnouncementPages;
