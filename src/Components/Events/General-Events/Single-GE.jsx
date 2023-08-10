@@ -2,8 +2,11 @@ import React, {useState} from 'react'
 import './SingleGE.css'
 import generalEvents from '../../../Assets/Events/general_events.jpg'
 import EventsRegModal from '../Events-Modal/Event-Reg-Modal'
-
-
+import axios from "axios";
+import { useParams } from "react-router-dom";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function SingleGE (){
@@ -20,6 +23,13 @@ function SingleGE (){
         setEventModalOpen(false);
 
     }; 
+
+    const [Loading, setLoading] = useState(false);
+    const [singGe, setSingGe] = useState();
+    const [errMsg, seterrMsg] = useState();
+    const { id } = useParams();
+
+    
 
     return(
 
