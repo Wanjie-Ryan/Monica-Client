@@ -172,11 +172,7 @@ function Contact() {
         </div>
       </section>
 
-      <ContactModal
-        isOpen={officeModalOpen}
-        onClose={closeOfficeModal}
-       
-      />
+      <ContactModal isOpen={officeModalOpen} onClose={closeOfficeModal} />
     </>
   );
 }
