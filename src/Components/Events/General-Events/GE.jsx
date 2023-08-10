@@ -218,81 +218,175 @@ function GeneralEvents (){
                         <p className='upcoming-title'>Current Events</p>
 
 
-                        <div className='upcoming-events'>
-
-
-                            <div className="upcoming-events-container">
-
-                                <div className='img-cont'>
-                                    
-                                    <img src ={generalEvents} alt =''  className='img-events'/>
-                                    <Link to = '/general-events/:id' className='explore'>Explore</Link>
-
-                                </div>
-
-
-                                <p className='event-title'>Event Title:</p>
-                                <p className='event-title'>Event Description:</p>
-
-                            </div>
-
-                            
-
-                            
-                        
+                        {loading ? (
+              <AiOutlineLoading3Quarters className="loading-icon" />
+            ) : (
+              <>
+                {currentEvents.length > 0 ? (
+                  <div className="upcoming-events">
+                    {currentEvents.map((event, index) => (
+                      <div className="upcoming-events-container" key={index}>
+                        <div className="img-cont">
+                          <img
+                            src={event.image}
+                            alt=""
+                            className="img-events"
+                          />
+                          <Link
+                            to={`/general-events/${event._id}`}
+                            className="explore"
+                          >
+                            Explore
+                          </Link>
                         </div>
+                        <p className="event-title">
+                          Event Title:{" "}
+                          <span className="events-desc-p-">{event.title}</span>
+                        </p>
+                        <p className="event-title">
+                          Event Category:{" "}
+                          <span className="events-desc-p-">
+                            {event.category}
+                          </span>
+                        </p>
+                        <p className="event-title">
+                          Event Description:{" "}
+                          <span className="events-desc-p-">
+                            {event.description}
+                          </span>
+                        </p>
+                        <p>
+                          Actual Date for Event:{event.ActualDate.slice(0, 10)}
+                        </p>
+                        {/* <p>Registration Deadline:{event.ActualDate.slice(0, 10)}</p> */}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="current-events-p">
+                    There are no current events
+                  </p>
+                )}
+              </>
+            )}
 
+            <p className="upcoming-title">Upcoming Events</p>
 
-                        <p className='upcoming-title'>Upcoming Events</p>
-
-                        <div className='upcoming-events'>
-
-                            <div className="upcoming-events-container">
-
-                                <div className='img-cont'>
-                                        
-                                    <img src ={generalEvents} alt =''  className='img-events'/>
-                                    <Link to = '/general-events/:id' className='explore'>Explore</Link>
-
-                                </div>
-
-
-                                <p className='event-title'>Event Title:</p>
-                                <p className='event-title'>Event Description:</p>
-                                <p>Actual Date for Event:</p>
-                                <p>Registration Deadline:</p>
-
-                            </div>
-
-                            
-
-                                   
+            {loading ? (
+              <AiOutlineLoading3Quarters className="loading-icon" />
+            ) : (
+              <>
+                {upcomingEvents.length > 0 ? (
+                  <div className="upcoming-events">
+                    {upcomingEvents.map((event, index) => (
+                      <div className="upcoming-events-container" key={index}>
+                        <div className="img-cont">
+                          <img
+                            src={event.image}
+                            alt=""
+                            className="img-events"
+                          />
+                          <Link
+                            to={`/general-events/${event._id}`}
+                            className="explore"
+                          >
+                            Explore
+                          </Link>
                         </div>
+                        <p className="event-title">
+                          Event Title:{" "}
+                          <span className="events-desc-p-">{event.title}</span>
+                        </p>
+                        <p className="event-title">
+                          Event Category:{" "}
+                          <span className="events-desc-p-">
+                            {event.category}
+                          </span>
+                        </p>
+                        <p className="event-title">
+                          Event Description:{" "}
+                          <span className="events-desc-p-">
+                            {event.description}
+                          </span>
+                        </p>
+                        <p>
+                          Actual Date for Event:
+                          <span className="actual-dates">
+                            {event.ActualDate.slice(0, 10)}
+                          </span>
+                        </p>
+                        <p className="event-title">
+                          Registration Deadline:{" "}
+                          <span className="event-deadline">
+                            {event.DeadlineDate.slice(0, 10)} (
+                            {formatCountdown(event.DeadlineDate)})
+                          </span>
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="current-events-p">
+                    There are no current events
+                  </p>
+                )}
+              </>
+            )}
 
+            <p className="upcoming-title">Past Events</p>
 
-                        <p className='upcoming-title'>Past Events</p>
-
-                        <div className='upcoming-events'>
-
-                            <div className="upcoming-events-container">
-
-                                <div className='img-cont'>
-                                        
-                                    <img src ={generalEvents} alt =''  className='img-events'/>
-                                    <Link to = '/general-events/:id' className='explore'>Explore</Link>
-
-                                </div>
-
-
-                                <p className='event-title'>Event Title:</p>
-                                <p className='event-title'>Event Description:</p>
-                                
-
-                            </div>
-
-
-                                
+            {loading ? (
+              <AiOutlineLoading3Quarters className="loading-icon" />
+            ) : (
+              <>
+                {pastEvents.length > 0 ? (
+                  <div className="upcoming-events">
+                    {pastEvents.map((event, index) => (
+                      <div className="upcoming-events-container" key={index}>
+                        <div className="img-cont">
+                          <img
+                            src={event.image}
+                            alt=""
+                            className="img-events"
+                          />
+                          <Link
+                            to={`/general-events/${event._id}`}
+                            className="explore"
+                          >
+                            Explore
+                          </Link>
                         </div>
+                        <p className="event-title">
+                          Event Title:{" "}
+                          <span className="events-desc-p-">{event.title}</span>
+                        </p>
+                        <p className="event-title">
+                          Event Category:{" "}
+                          <span className="events-desc-p-">
+                            {event.category}
+                          </span>
+                        </p>
+                        <p className="event-title">
+                          Event Description:{" "}
+                          <span className="events-desc-p-">
+                            {event.description}
+                          </span>
+                        </p>
+                        <p>
+                          Actual Date for Event:
+                          <span className="actual-dates">
+                            {event.ActualDate.slice(0, 10)}
+                          </span>
+                        </p>
+                        {/* <p>Registration Deadline:<span className='reg-dates'>{event.ActualDate.slice(0, 10)}</span></p> */}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="current-events-p">There are no Past events</p>
+                )}
+              </>
+            )}
 
                     </div>
 
