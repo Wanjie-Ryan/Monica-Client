@@ -1,22 +1,18 @@
-.contact{
-
-  width:100%;
-  position:relative;
+.contact {
+  width: 100%;
+  position: relative;
 }
 
 .floating-button {
-
   position: fixed;
-  top:90px;
+  top: 90px;
   /* bottom: 20px; */
   right: 20px;
   /* z-index: 999; */
-
 }
 
 .floating-button button {
-
-  background-color:#693d56 ;
+  background-color: #693d56;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -25,199 +21,185 @@
   cursor: pointer;
 }
 
-
 .floating-button button:hover {
-  background-color:#59372c ;
-  
+  background-color: #59372c;
 }
 
-
-
-.intro-contact{
-
-    width:100%;
-    background-color:#de9973;
-    padding:10px;
+.intro-contact {
+  width: 100%;
+  background-color: #de9973;
+  padding: 10px;
 }
 
-.main-contact{
-
-    width:90%;
-    display:flex;
-    flex-direction:row;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:50px;
-    margin-bottom: 30px;
-    gap:3rem;
+.main-contact {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  gap: 3rem;
 }
 
-.maps{
-
-    width:45%;
-    
+.maps {
+  width: 45%;
 }
 
-.church-maps{
-
-    width:404px;
+.church-maps {
+  width: 404px;
 }
 
-.footer-icons-link{
-
-    text-decoration:none;
-
+.footer-icons-link {
+  text-decoration: none;
 }
 
-.footer-icons-link-call{
-
-    text-decoration:none;
-    color:#693d56;
-
+.footer-icons-link-call {
+  text-decoration: none;
+  color: #693d56;
 }
 
-.footer-icons{
-
-    color:#693d56;
-    font-size:22px;
-    margin-left:17px;
+.footer-icons {
+  color: #693d56;
+  font-size: 22px;
+  margin-left: 17px;
 }
 
-.footer-icons:hover{
-  
-    color:#59372c;
-    animation: shake 0.5s infinite;
-    
+.footer-icons:hover {
+  color: #59372c;
+  animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
   }
-  
-  @keyframes shake {
-
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-5px) rotate(-5deg); }
-    75% { transform: translateX(5px) rotate(5deg); }
-    100% { transform: translateX(0); }
-
+  25% {
+    transform: translateX(-5px) rotate(-5deg);
   }
-
-  .contact-box{
-
-    width:45%;
-    margin-left:auto;
-    margin-right:auto;
+  75% {
+    transform: translateX(5px) rotate(5deg);
   }
-
-  .name{
-
-    margin-bottom:40px;
+  100% {
+    transform: translateX(0);
   }
-
-  input{
-    margin-left:10px;
-    width: 230px;
-    padding: 8px;
-    border: 1px solid black;
-    border-radius: 3px;
-    transition: border-color 0.3s ease-in-out;
-  
 }
 
-input:focus{
-    
-    outline: none;
-    border-color:#693d56;
-      
+.contact-box {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  margin-bottom: 40px;
+}
+
+input {
+  margin-left: 10px;
+  width: 230px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #693d56;
 }
 
 input::placeholder {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+textarea {
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: border-color 0.3s ease-in-out;
+  /* width: 230px; */
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #693d56;
+}
+
+.submission-btn {
+  width: 230px;
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: #693d56;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submission-btn:hover {
+  background-color: #59372c;
+}
+
+@media screen and (max-width: 768px) {
+  .main-contact {
+    flex-direction: column;
+    width: 100%;
   }
 
-  textarea{
-
-    border: 1px solid black;
-    border-radius: 3px;
-    transition: border-color 0.3s ease-in-out;
-    /* width: 230px; */
-
+  .maps {
+    width: 100%;
   }
 
-  textarea:focus{
+  .church-maps {
+    width: 380px;
+  }
 
-    outline: none;
-    border-color:#693d56;
+  .contact-box {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  textarea {
+    width: 300px;
   }
 
   .submission-btn {
-    width: 230px;
-    margin-top: 20px;
-    padding: 10px 16px;
-    background-color: #693d56;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    text-align: center;
-    margin-left: auto;
-    margin-right:auto;
+    margin-left: 35px;
+    /* margin-right:auto; */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-contact {
+    width: 100%;
   }
 
-  .submission-btn:hover{
-
-        background-color: #59372c;
-    
+  textarea {
+    width: 350px;
   }
+}
 
-  @media screen and (max-width:768px){
+.loading-icon {
+  animation: spin 1s linear infinite;
+  color: purple;
+  font-size: 20px;
+}
 
-    .main-contact{
-
-        flex-direction: column;
-        width:100%;
-    }
-
-    .maps{
-        width:100%;
-    }
-
-    .church-maps{
-
-        width:380px;
-    }
-
-    .contact-box{
-
-        width:100%;
-        margin-left: auto;
-        margin-right:auto;
-    }
-
-    textarea{
-
-        width:300px;
-    }
-
-    .submission-btn{
-
-        margin-left: 35px;
-        /* margin-right:auto; */
-        
-    }
-
-
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-
-  @media screen and (max-width:1200px){
-
-    .main-contact{
-
-        width:100%;
-    }
-
-    textarea{
-
-        width:350px;
-    }
-    
+  100% {
+    transform: rotate(360deg);
   }
+}
+
+.error-msg {
+  color: red;
+  font-weight: 600;
+}
