@@ -1,59 +1,47 @@
-.announcement{
-
-    width:100%;
+.announcement {
+  width: 100%;
 }
 
-.announcement-details{
-
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 50px;
+.announcement-details {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
-.news-title{
-
-    text-align:center;
-    font-weight:bold;
-    font-size:22px;
-    margin-top:20px;
-    color:#693d56;
-
+.news-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+  color: #693d56;
 }
 
-.etiqutte{
-
-    margin-top:50px;
-    width:100%;
+.etiqutte {
+  margin-top: 50px;
+  width: 100%;
 }
 
-.etiqutte-title{
-
-    text-align:center;
-    margin-bottom:20px;
-    font-weight:bold;
-    font-size:20px;
-    color:#693d56;
-
+.etiqutte-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #693d56;
 }
 
-.follow-rules{
-
-    text-align:center;
-    font-weight: 600;
-    margin-top:7px;
+.follow-rules {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 7px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
+  .announcement-details {
+    width: 100%;
+  }
 
-    .announcement-details{
-
-        width:100%;
-    }
-
-    .follow-rules{
-
-        font-size:17px;
-    }
-
+  .follow-rules {
+    font-size: 17px;
+  }
 }
