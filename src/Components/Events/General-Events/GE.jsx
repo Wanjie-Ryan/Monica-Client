@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './Ge.css'
 import generalEvents from '../../../Assets/Events/general_events.jpg'
 import {Link} from 'react-router-dom'
- 
-
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import {BsSearch} from 'react-icons/bs'
 
 function GeneralEvents (){
 
@@ -14,12 +17,31 @@ function GeneralEvents (){
 
             <section className="general-events">
 
-                <p className='gen-title'>General Events</p>
-                <p className='event-desc'>These are events that involve the whole of the church</p>
+                <p className='gen-title'>Events</p>
+                {/* <p className='event-desc'>These are events that involve the whole of the church</p> */}
+
+                    <div className="search">
+
+                        <input
+                            type="text"
+                            placeholder="search by name of event"
+                            // value={searchEvent}
+                            // onChange={handleSearch}
+                            // onKeyDown={handleKeyDown}
+                            // onClick={searchFunc}
+                        />
+
+                        <BsSearch className="search-icon"  />
+                    </div>
+
+                
 
                 <div className='all-events'>
 
+
                     <div className="all-events-container">
+
+                       
 
                         <p className='upcoming-title'>Current Events</p>
 
