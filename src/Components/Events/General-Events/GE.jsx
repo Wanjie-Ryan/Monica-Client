@@ -10,6 +10,8 @@ import {BsSearch} from 'react-icons/bs'
 
 function GeneralEvents (){
 
+    
+
     return(
 
         <>
@@ -18,7 +20,6 @@ function GeneralEvents (){
             <section className="general-events">
 
                 <p className='gen-title'>Events</p>
-                {/* <p className='event-desc'>These are events that involve the whole of the church</p> */}
 
                     <div className="search">
 

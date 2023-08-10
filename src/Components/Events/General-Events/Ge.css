@@ -33,23 +33,24 @@
     box-shadow: 0 4px 8px rgba(105, 61, 86, 0.3);
 }
 
-.explore{
-
-    position:absolute;
+.explore {
+    position: absolute;
     /* top:200px; */
     /* left:180px; */
-    bottom:30px;
-    right:60px;
-    text-decoration:none;
+    bottom: 30px;
+    left: 10px;
+    width: 120px;
+    /* right:60px; */
+    text-decoration: none;
     background-color: #693d56;
-    color:white;
+    color: white;
     border: none;
     padding: 5px;
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     margin-right: 10px;
-}
+  }
 
 .explore:hover{
 
