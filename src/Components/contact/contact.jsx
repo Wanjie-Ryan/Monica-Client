@@ -4,6 +4,10 @@ import {BsFacebook} from 'react-icons/bs'
 import {BiLogoGmail} from 'react-icons/bi'
 import {AiTwotonePhone} from 'react-icons/ai'
 import ContactModal from '../contactModal/cont-modal'
+import axios from 'axios'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 
 
@@ -21,6 +25,68 @@ function Contact() {
 
            setofficeModalOpen(false);
         };    
+
+        const [name, setName] =useState()
+        const [email, setEmail] = useState()
+        const [msg, setMsg] = useState()
+        const [loading, setLoading] = useState(false)
+        const [errMsg, setErrMsg] = useState()
+
+
+        const handleName = (e)=>{
+
+
+          setName(e.target.value)
+        }
+
+        const handleEmail = (e)=>{
+
+
+          setEmail(e.target.value)
+        }
+
+        const handleMsg = (e)=>{
+
+
+          setMsg(e.target.value)
+        }
+
+        const handleContact = async(e)=>{
+
+          e.preventDefault()
+
+          try{
+
+            setLoading(true)
+
+            const submissionData = {
+
+              name:name,
+              email:email,
+              message:msg
+
+            }
+
+            const postData =  await axios.post('http://localhost:3005/api/user/feedback', submissionData)
+
+            console.log(postData)
+
+            toast.success('Your response has been received successfully, thank you')
+
+            setLoading(false)
+
+
+          }
+
+          catch(err){
+
+            console.log(err)
+            setErrMsg('Cannot post your response at this time, please try again later')
+            setLoading(false)
+          }
+
+
+        }
 
 
 
@@ -82,7 +148,7 @@ function Contact() {
             <div className ='name'>
 
               <label>Name:</label>
-              <input className ='input-name' required placeholder='Enter your name*'/>
+              <input className ='input-name' required placeholder='Enter your name*' value={name} onChange={handleName}/>
 
 
             </div>
@@ -90,7 +156,7 @@ function Contact() {
             <div className ='name'>
 
               <label>Email:</label>
-              <input className ='input-name' required placeholder='Enter your email*'/>
+              <input className ='input-name' required placeholder='Enter your email*' value={email} onChange={handleEmail}/>
 
 
             </div>
@@ -99,7 +165,7 @@ function Contact() {
 
               <label>Your message:</label>
 
-              <textarea className="myTextArea" name="myText" rows="4" cols="50">
+              <textarea className="myTextArea" name="myText" rows="4" cols="50" value={msg} onChange={handleMsg}>
 
                 Type your message here
 
