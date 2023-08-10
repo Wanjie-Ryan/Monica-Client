@@ -1,135 +1,111 @@
-.kama{
-
-    margin-top: 20px;
-    width:100%;
-    margin-bottom: 30px;
+.kama {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
-.kama-cont{
-
-    display:flex;
-    flex-direction:row;
-    height:30px;
-   justify-content:center;
-    
+.kama-cont {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: center;
 }
 
-.kamalogo{
-
-    height: 40px;
-    width:45px;
-    
+.kamalogo {
+  height: 40px;
+  width: 45px;
 }
 
-.kama-title{
-
-    text-align: center;
-    margin-top:10px;
-    color:#693d56;
-    font-size:16px;
-    font-weight:bold;
+.kama-title {
+  text-align: center;
+  margin-top: 10px;
+  color: #693d56;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.kama-container{
-
-    margin-top: 30px;
-    width:90%;
-    display:flex;
-    flex-direction:row;
-    gap:3rem;
-    /* justify-content: center; */
+.kama-container {
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  /* justify-content: center; */
 }
 
-.kama-img-cont{
-
-    width:45%;
-    margin-left:130px;
+.kama-img-cont {
+  width: 45%;
+  margin-left: 130px;
 }
 
-.img-kama{
-
-    width:700px;
-    height:500px;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-    object-fit: cover;
-    
+.img-kama {
+  width: 700px;
+  height: 500px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
 }
 
-.kama-details{
-
-    width:45%;
-    margin-left: auto;
-    margin-right:auto;
+.kama-details {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.kama-desc-title{
-
-    text-align:center;
-    color:#693d56;
-    margin-bottom:20px;
+.kama-desc-title {
+  text-align: center;
+  color: #693d56;
+  margin-bottom: 20px;
 }
 
-.about-kama{
-    margin-bottom: 20px;
+.about-kama {
+  margin-bottom: 20px;
 }
 
-.btn-container{
-
-   display:flex;
-   flex-direction: row;
-   justify-content: center;
-   margin-top: 40px;
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
 }
 
-.kama-reg{
-
-    background-color: #693d56;
-    color:white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    padding:10px;
-
+.kama-reg {
+  background-color: #693d56;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  padding: 10px;
 }
 
-.kama-reg:hover{
-
+.kama-reg:hover {
   background-color: #59372c;
-
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
+  .kama-container {
+    width: 100%;
+    flex-direction: column;
+  }
 
-    .kama-container{
+  .kama-img-cont {
+    width: 100%;
+    margin-left: 0px;
+  }
 
-        width:100%;
-        flex-direction:column;
-    }
+  .img-kama {
+    width: 500px;
+    height: 400px;
+  }
 
-    .kama-img-cont{
+  .kama-details {
+    width: 100%;
+  }
 
-        width:100%;
-        margin-left:0px;
-    }
-
-    .img-kama{
-
-        width:500px;
-        height:400px;
-    }
-
-    .kama-details{
-
-        width:100%;
-    }
-
-    .about-kama{
-
-        text-align: center;
-    }
-
+  .about-kama {
+    text-align: center;
+  }
 }
