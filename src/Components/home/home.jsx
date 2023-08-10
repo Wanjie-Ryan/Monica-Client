@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./home.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -16,7 +16,8 @@ import Mothers from "../../Assets/Ministries/Mothers-union.png";
 import Brigade from "../../Assets/Ministries/brigade.png";
 import Youth from "../../Assets/Ministries/youth.png";
 import { Link } from "react-router-dom";
-
+import axios from "axios";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 function Home() {
   const imageData = [
     {
@@ -99,6 +100,39 @@ function Home() {
   ];
 
   const year = new Date().getFullYear();
+
+  const [loading, setLoading] = useState(false);
+  const [errmsg, setErrmsg] = useState("");
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      try {
+        setLoading(true);
+
+        const FetchedProjects = await axios.get(
+          "https://monica-server.onrender.com/api/clergy/projects/getAllprojects"
+        );
+
+        // console.log(FetchedProjects.data.AllProjects)
+
+        const AllprojectsFetched = FetchedProjects.data.AllProjects;
+
+        setProjects(AllprojectsFetched);
+
+        setLoading(false);
+      } catch (err) {
+        // console.log(err)
+
+        setErrmsg(
+          "There was an error while fetching the data, refresh the page and try again"
+        );
+        setLoading(false);
+      }
+    };
+
+    fetchProjects();
+  }, []);
 
   return (
     <>
@@ -289,27 +323,41 @@ function Home() {
           <div className="projects">
             <p className="prayer-title">Projects</p>
 
-            <div className="container">
-              <img
-                src={churchView}
-                alt="church-view"
-                className="church-projects"
-              />
+            {loading ? (
+              <AiOutlineLoading3Quarters className="loading-icon" />
+            ) : (
+              <>
+                {projects.length > 0 ? (
+                  <div className="container">
+                    {projects.map((project, index) => (
+                      <div key={index} className="project-item">
+                        <img
+                          src={project.image}
+                          alt="church-view"
+                          className="church-projects"
+                        />
+                        <p className="project-desc">{project.title}</p>
+                        <Scroll
+                          className="project-contribute"
+                          activeClass="active"
+                          to="contribute"
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}
+                        >
+                          Contribute
+                        </Scroll>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p>There is no project at the moment</p>
+                )}
+              </>
+            )}
 
-              <p className="project-desc">Building a complex for the Youth</p>
-
-              <Scroll
-                className="project-contribute"
-                activeClass="active"
-                to="contribute"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Contribute
-              </Scroll>
-            </div>
+            {errmsg && <p className="error-msg">{errmsg}</p>}
           </div>
 
           <div className="prayer-cells">
