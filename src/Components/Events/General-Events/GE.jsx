@@ -1,15 +1,14 @@
-import React, {useState, useEffect} from 'react'
-import './Ge.css'
-import generalEvents from '../../../Assets/Events/general_events.jpg'
-import {Link} from 'react-router-dom'
+import React, { useState, useEffect } from "react";
+import "./Ge.css";
+import generalEvents from "../../../Assets/Events/general_events.jpg";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
-import {BsSearch} from 'react-icons/bs'
+import { BsSearch } from "react-icons/bs";
 
-function GeneralEvents (){
-
+function GeneralEvents() {
   const [currentEvents, setCurrentEvents] = useState([]);
   const [upcomingEvents, setUpcomingEvents] = useState([]);
   const [pastEvents, setPastEvents] = useState([]);
@@ -84,7 +83,6 @@ function GeneralEvents (){
     FetchGenEvents();
   }, []);
 
-  
   const [searchEvent, setsearchEvent] = useState();
   const [searchErr, setsearchErr] = useState();
   const [searchGen, setsearchGen] = useState([]);
@@ -122,103 +120,82 @@ function GeneralEvents (){
     }
   };
 
+  return (
+    <>
+      <section className="general-events">
+        <p className="gen-title">Events</p>
 
+        <div className="search">
+          <input
+            type="text"
+            placeholder="search by name of event"
+            value={searchEvent}
+            onChange={handleSearch}
+            onKeyDown={handleKeyDown}
+          />
 
-    return(
+          <BsSearch className="search-icon" onClick={searchFunc} />
+        </div>
 
-        <>
+        <div className="all-events">
+          <div className="all-events-container">
+            {loading ? (
+              <AiOutlineLoading3Quarters className="loading-icon" />
+            ) : (
+              <>
+                {searchGen.length > 0 ? (
+                  <div className="upcoming-events">
+                    {searchGen.map((searchevent, index) => (
+                      <div className="upcoming-events-container" key={index}>
+                        <p className="upcoming-title">Searched Events</p>
 
+                        <div className="img-cont">
+                          <img
+                            src={searchevent.image}
+                            alt=""
+                            className="img-events"
+                          />
+                          <Link
+                            to={`/general-events/${searchevent._id}`}
+                            className="explore"
+                          >
+                            Explore
+                          </Link>
+                        </div>
 
-            <section className="general-events">
+                        <p className="event-title">
+                          Event Title:{" "}
+                          <span className="events-desc-p-">
+                            {searchevent.title}
+                          </span>
+                        </p>
 
-                <p className='gen-title'>Events</p>
-
-                    <div className="search">
-
-                        <input
-                            type="text"
-                            placeholder="search by name of event"
-                            value={searchEvent}
-                            onChange={handleSearch}
-                            onKeyDown={handleKeyDown}
-                        />
-
-                        <BsSearch className="search-icon" onClick={searchFunc} />
-                    </div>
-
-                
-
-                <div className='all-events'>
-
-                    <div className="all-events-container">
-
-                    {loading ? (
-
-                        <AiOutlineLoading3Quarters className="loading-icon" />
-
-                        ) : (
-
-                        <>
-                            {searchGen.length > 0 ? (
-
-                            <div className="upcoming-events">
-
-                                {searchGen.map((searchevent, index) => (
-
-                                <div className="upcoming-events-container" key={index}>
-
-                                    <p className="upcoming-title">Searched Events</p>
-
-                                    <div className="img-cont">
-                                        <img
-                                            src={searchevent.image}
-                                            alt=""
-                                            className="img-events"
-                                        />
-                                        <Link
-                                            to={`/general-events/${searchevent._id}`}
-                                            className="explore"
-                                        >
-                                            Explore
-                                        </Link>
-                                    </div>
-
-                                    <p className="event-title">
-                                        Event Title:{" "}
-                                        <span className="events-desc-p-">
-                                            {searchevent.title}
-                                        </span>
-                                    </p>
-
-                                    <p className="event-title">
-                                        Event Description:{" "}
-                                        <span className="events-desc-p-">
-                                            {searchevent.description}
-                                        </span>
-                                    </p>
-                                    {/* <p>
+                        <p className="event-title">
+                          Event Description:{" "}
+                          <span className="events-desc-p-">
+                            {searchevent.description}
+                          </span>
+                        </p>
+                        {/* <p>
                                     Actual Date for Event:{searchGen.ActualDate.slice(0, 10)}
                                     </p> */}
-                                    {/* <p>Registration Deadline:{event.ActualDate.slice(0, 10)}</p> */}
-                                </div>
-                                ))}
-                            </div>
-                            ) : (
-                            <p className="current-events-p">
-                                {searchGen?.length <= 0
-                                ? "The event searched for has not been found"
-                                : { searchErr }}
-                            </p>
-                            )}
-                        </>
-                    )}
+                        {/* <p>Registration Deadline:{event.ActualDate.slice(0, 10)}</p> */}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="current-events-p">
+                    {searchGen?.length <= 0
+                      ? "The event searched for has not been found"
+                      : { searchErr }}
+                  </p>
+                )}
+              </>
+            )}
 
+            <p className="upcoming-title">Current Events</p>
 
-                       
-                        <p className='upcoming-title'>Current Events</p>
-
-
-                        {loading ? (
+            {loading ? (
               <AiOutlineLoading3Quarters className="loading-icon" />
             ) : (
               <>
@@ -387,18 +364,11 @@ function GeneralEvents (){
                 )}
               </>
             )}
-
-                    </div>
-
-                </div>
-
-            </section>
-        
-        
-        
-        </>
-    )
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
-
-export default GeneralEvents
+export default GeneralEvents;
