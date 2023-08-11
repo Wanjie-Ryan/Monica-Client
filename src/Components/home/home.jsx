@@ -223,14 +223,9 @@ function Home() {
               <p className="mission-titles">Mission</p>
 
               <p className="inner-p-marks">
-                &bull; To bring the community closer to God
+                &bull; To glorify God by making disciples to respond obediently to our Lord's Commission
               </p>
-              <p className="inner-p-marks">
-                &bull; Leave the world a better place
-              </p>
-              <p className="inner-p-marks">
-                &bull; Equip the community for ministry
-              </p>
+              
             </div>
 
             <div className="mission">
@@ -248,13 +243,31 @@ function Home() {
             <div className="mission">
               <p className="mission-titles">Vision</p>
 
-              <p className="inner-p-marks">&bull; Grow the world Spiritually</p>
               <p className="inner-p-marks">
-                &bull; Equip the community for ministry
+                &bull; A church that transforms our world for Jesus Christ
               </p>
+              
+            </div>
+
+            <div className="mission">
+              <p className="mission-titles">Services</p>
+
               <p className="inner-p-marks">
-                &bull; Leave the world a better place
+                &bull; Swahili 7:00Am - 8:00Am (Holy Communion)
               </p>
+
+              <p className="inner-p-marks">
+                &bull; Youth 8:15Am - 9:15Am 
+              </p>
+
+              <p className="inner-p-marks">
+                &bull; English 9:30Am - 11:15Am 
+              </p>
+
+              <p className="inner-p-marks">
+                &bull; Gikuyu 11:30Am - 1:00Pm 
+              </p>
+              
             </div>
           </div>
 
