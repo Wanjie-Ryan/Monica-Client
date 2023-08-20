@@ -68,24 +68,31 @@ function Kayo() {
           </div>
 
           <div className="kama-details">
-            <p className="kama-desc-title">About KAYO</p>
+            <p className="kama-desc-title">Mission</p>
 
             <p className="about-kama">
               {" "}
-              &bull; Bringing young people to know and serve Christ as Savior and Lord. 
+              &bull; Bringing young people to know and serve Christ as Savior
+              and Lord.
             </p>
 
             <p className="about-kama">
               {" "}
-              &bull;Building young people in knowledge and behavior of Christian faith, the bible being the foundation. 
+              &bull;Building young people in knowledge and behavior of Christian
+              faith, the bible being the foundation.
             </p>
 
             <p className="about-kama">
               {" "}
-              &bull; Educating young people in good Christian character and to encourage them to be leaders in church.  
+              &bull; Educating young people in good Christian character and to
+              encourage them to be leaders in church.
             </p>
 
-            
+            <p className="about-kama">
+              {" "}
+              &bull; Helping the church understand her responsibility towards
+              young people.
+            </p>
           </div>
         </div>
       </section>
