@@ -67,20 +67,18 @@ function Kama() {
 
             <p className="about-kama">
               {" "}
-              &bull;Helping its members grow in spirit, mind and body and be mature in faith for every good work. 
+              &bull;Helping its members grow in spirit, mind and body and be
+              mature in faith for every good work.
             </p>
 
             <p className="about-kama">
               {" "}
-              &bull;Encouraging members to play an active role into the mission of the church
+              &bull;Encouraging members to play an active role into the mission
+              of the church
             </p>
-
-            
           </div>
         </div>
       </section>
-
-      
     </>
   );
 }
