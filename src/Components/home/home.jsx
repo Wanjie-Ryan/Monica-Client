@@ -33,69 +33,93 @@ function Home() {
     },
 
     {
-      id: 3,
+      id:3,
+      image:require('../../Assets/homeImages/main_team.jpeg',),
+      message:'Team'
+    },
+
+    {
+      id:4,
+      image:require('../../Assets/homeImages/John_sacrament.jpeg'),
+      message:'The Vicar with the Team'
+    },
+
+    {
+      id: 5,
       image: require("../../Assets/homeImages/view.jpg"),
       message: `ACK St.Monica's church Mugumo-ini at night`,
     },
 
     {
-      id: 4,
+      id: 6,
       image: require("../../Assets/homeImages/view 2.jpg"),
       message: `ACK St.Monica's church Mugumo-ini `,
     },
 
     {
-      id: 5,
-      image: require("../../Assets/homeImages/Congregation1.jpg"),
+      id: 7,
+      image: require("../../Assets/homeImages/new_congregation.jpeg"),
       message: "Our congregation and worshippers",
     },
 
     {
-      id: 6,
+      id: 8,
+      image: require("../../Assets/homeImages/congregation_2.jpeg"),
+      message: "Our congregation and worshippers",
+    },
+
+    {
+      id: 9,
+      image: require("../../Assets/homeImages/congregation_3.jpeg"),
+      message: "Our congregation and worshippers",
+    },
+
+    {
+      id: 10,
       image: require("../../Assets/homeImages/worship.jpg"),
       message: "Worship Team",
     },
 
     {
-      id: 7,
+      id: 11,
       image: require("../../Assets/homeImages/drumist.jpg"),
       message: "Fully Equipped musical instruments",
     },
 
     {
-      id: 8,
+      id: 12,
       image: require("../../Assets/homeImages/men2.jpg"),
       message: "The men of St.Monica",
     },
 
     {
-      id: 9,
-      image: require("../../Assets/homeImages/women.jpg"),
+      id: 13,
+      image: require("../../Assets/homeImages/mothers_union.jpeg"),
       message: "The women of St.Monica",
     },
 
     {
-      id: 10,
+      id: 14,
       image: require("../../Assets/homeImages/sunday school.jpg"),
       message: `St.Monica's Sunday School`,
     },
 
     {
-      id: 11,
+      id: 15,
       image: require("../../Assets/homeImages/kids fellowship.jpg"),
       message: `St.Monica's Kids`,
     },
 
     {
-      id: 12,
-      image: require("../../Assets/homeImages/awards.jpg"),
-      message: "What do you know, we also win awards",
+      id: 16,
+      image: require("../../Assets/homeImages/palm_sunday_1.jpeg"),
+      message: "Palm Sunday",
     },
 
     {
-      id: 13,
-      image: require("../../Assets/homeImages/youth.jpg"),
-      message: "The Youth",
+      id: 17,
+      image: require("../../Assets/homeImages/palm_sunday_church.jpeg"),
+      message: "Our Sunday School Teachers",
     },
   ];
 
