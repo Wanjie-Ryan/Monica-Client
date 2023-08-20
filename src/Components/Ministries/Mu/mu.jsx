@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-// import './kama.css'
-// import Men from '../../../Assets/homeImages/men.jpg'
 import MuLogo from "../../../Assets/Ministries/Mothers-union.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
-import MuModal from "./min-Modal";
 
 function MothersUnion() {
   const [isKamaModalOpen, setKamaModalOpen] = useState(false);
@@ -20,12 +17,12 @@ function MothersUnion() {
   const KamaData = [
     {
       id: 1,
-      image: require("../../../Assets/homeImages/women.jpg"),
+      image: require("../../../Assets/homeImages/mothers_union.jpeg"),
     },
 
     {
       id: 2,
-      image: require("../../../Assets/homeImages/worship.jpg"),
+      image: require("../../../Assets/homeImages/mu_2.jpeg"),
     },
   ];
 
@@ -63,34 +60,12 @@ function MothersUnion() {
           </div>
 
           <div className="kama-details">
-            <p className="kama-desc-title">About Mothers' Union</p>
+            <p className="kama-desc-title">Mission</p>
 
-            <p className="about-kama">
-              {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
-            </p>
-
-            <p className="about-kama">
-              {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
-            </p>
-
-            {/* <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a MU member?</button></div> */}
+            <p className="about-kama"> &bull; Christian care for families</p>
           </div>
         </div>
       </section>
-
-      {/* <MuModal
-        
-            isOpen={isKamaModalOpen}
-            onClose={closeKamaModal}
-        /> */}
     </>
   );
 }
