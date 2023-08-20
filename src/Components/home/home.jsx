@@ -33,15 +33,15 @@ function Home() {
     },
 
     {
-      id:3,
-      image:require('../../Assets/homeImages/main_team.jpeg',),
-      message:'Team'
+      id: 3,
+      image: require("../../Assets/homeImages/main_team.jpeg"),
+      message: "Team",
     },
 
     {
-      id:4,
-      image:require('../../Assets/homeImages/John_sacrament.jpeg'),
-      message:'The Vicar with the Team'
+      id: 4,
+      image: require("../../Assets/homeImages/John_sacrament.jpeg"),
+      message: "The Vicar with the Team",
     },
 
     {
@@ -158,14 +158,12 @@ function Home() {
     fetchProjects();
   }, []);
 
+  const [showService, setshowService] = useState(false);
 
-  const [showService, setshowService] =useState(false)
-
-  const handleService =()=>{
-
-    console.log(showService)
-    setshowService(!showService)
-  }
+  const handleService = () => {
+    console.log(showService);
+    setshowService(!showService);
+  };
 
   return (
     <>
@@ -256,9 +254,9 @@ function Home() {
               <p className="mission-titles">Mission</p>
 
               <p className="inner-p-marks">
-                &bull; To glorify God by making disciples to respond obediently to our Lord's Commission
+                &bull; To glorify God by making disciples to respond obediently
+                to our Lord's Commission
               </p>
-              
             </div>
 
             <div className="mission">
@@ -279,64 +277,44 @@ function Home() {
               <p className="inner-p-marks">
                 &bull; A church that transforms our world for Jesus Christ
               </p>
-              
             </div>
 
-            <div className="mission-special" >
-
-              <div className='inners' >
-
+            <div className="mission-special">
+              <div className="inners">
                 <p className="mission-titles">Services</p>
 
                 <p className="inner-p-marks">
                   &bull; Swahili 7:00Am - 8:00Am (Holy Communion)
                 </p>
 
-                <p className="inner-p-marks">
-                  &bull; Youth 8:15Am - 9:15Am 
-                </p>
+                <p className="inner-p-marks">&bull; Youth 8:15Am - 9:15Am</p>
 
-                <p className="inner-p-marks">
-                  &bull; English 9:30Am - 11:15Am 
-                </p>
+                <p className="inner-p-marks">&bull; English 9:30Am - 11:15Am</p>
 
-                <p className="inner-p-marks">
-                  &bull; Gikuyu 11:30Am - 1:00Pm 
-                </p>
-
+                <p className="inner-p-marks">&bull; Gikuyu 11:30Am - 1:00Pm</p>
               </div>
 
-              
-                  <div className='upper'>
+              <div className="upper">
+                <p className="inner-p-marks">
+                  &bull; Bible Study 8:00Am - 9:15Am (Board Room)
+                </p>
 
+                <p className="inner-p-marks">
+                  &bull; Holy Communion - 1st & 2nd Sunday of the month
+                </p>
 
-                  
+                <p className="inner-p-marks">
+                  &bull; Gift Sunday - Every 2nd Sunday
+                </p>
 
-                  <p className="inner-p-marks">
-                    &bull; Bible Study 8:00Am - 9:15Am (Board Room)
-                  </p>
+                <p className="inner-p-marks">
+                  &bull; Baptism & Confirmation - As announced
+                </p>
 
-                  <p className="inner-p-marks">
-                    &bull; Holy Communion - 1st & 2nd Sunday of the month 
-                  </p>
-
-                  <p className="inner-p-marks">
-                    &bull; Gift Sunday - Every 2nd Sunday 
-                  </p>
-
-                  <p className="inner-p-marks">
-                    &bull; Baptism & Confirmation - As announced 
-                  </p>
-
-                  <p className="inner-p-marks">
-                    &bull; Churching & Admission - As announced 
-                  </p>
-
-
-
-                </div>
-              
-              
+                <p className="inner-p-marks">
+                  &bull; Churching & Admission - As announced
+                </p>
+              </div>
             </div>
           </div>
 

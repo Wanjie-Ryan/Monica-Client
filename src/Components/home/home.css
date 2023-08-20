@@ -52,32 +52,24 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
-  
 }
 
 .mission-special {
-
   width: 30%;
   background: linear-gradient(45deg, #a55aaa, #63467a);
   color: white;
   padding: 20px;
   border-radius: 10px;
-  position:relative;
-  
-
+  position: relative;
 }
 
-.mission-special .inners{
-
-  position:relative;
-  cursor:pointer;
- 
-
+.mission-special .inners {
+  position: relative;
+  cursor: pointer;
 }
 
- 
- .mission-special .upper {
-  display: none; 
+.mission-special .upper {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -87,15 +79,13 @@
   padding: 20px;
   border-radius: 10px;
   z-index: 1;
-  cursor:pointer;
+  cursor: pointer;
   transition: display 0.3s ease-in-out;
 }
 
 .mission-special:hover .upper {
   display: block;
-} 
- 
-
+}
 
 .mission-titles {
   text-align: center;
@@ -132,7 +122,7 @@
 }
 
 .project-item {
-  height: 300px; 
+  height: 300px;
   width: calc(33.33% - 20px);
   margin-top: 70px;
 }
@@ -374,8 +364,8 @@
     width: 100%;
   }
 
-  .mission-special{
-    width:100%;
+  .mission-special {
+    width: 100%;
   }
 
   .prayer-title {
