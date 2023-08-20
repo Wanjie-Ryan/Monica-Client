@@ -285,7 +285,6 @@ function Home() {
             <div className="mission-special" >
 
               <div className='inners' >
-              {/* onMouseEnter={handleService} onMouseLeave={handleService} */}
 
                 <p className="mission-titles">Services</p>
 
@@ -393,7 +392,7 @@ function Home() {
                 </div>
 
                 <div className="ministries-p">
-                  <p className="title-p-min">The BRIGADE</p>
+                  <p className="title-p-min">The Childrens' Ministries</p>
 
                   <Link to="/brigade" className="know-more-ministries">
                     More

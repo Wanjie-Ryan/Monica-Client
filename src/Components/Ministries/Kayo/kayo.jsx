@@ -72,21 +72,20 @@ function Kayo() {
 
             <p className="about-kama">
               {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
+              &bull; Bringing young people to know and serve Christ as Savior and Lord. 
             </p>
 
             <p className="about-kama">
               {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
+              &bull;Building young people in knowledge and behavior of Christian faith, the bible being the foundation. 
             </p>
 
-            {/* <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a KAYO member?</button></div> */}
+            <p className="about-kama">
+              {" "}
+              &bull; Educating young people in good Christian character and to encourage them to be leaders in church.  
+            </p>
+
+            
           </div>
         </div>
       </section>
