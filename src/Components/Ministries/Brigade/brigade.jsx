@@ -72,30 +72,31 @@ function Brigade() {
 
             <p className="about-kama">
               {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
+              &bull; Establishment of friendship between young people and
+              children and adults in caring and safe environment.
             </p>
 
             <p className="about-kama">
               {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
+              &bull;Helping children to grow in confidence, develop their skills
+              and abilities, and work together, show care and concern for
+              others.
             </p>
 
-            {/* <div className="btn-container">
-              <button className="kama-reg" onClick={openKamaModal}>
-                Become a Brigade member?
-              </button>
-            </div> */}
+            <p className="about-kama">
+              {" "}
+              &bull;Encouraging children to explore their spirituality and
+              respond to the Christian faith.
+            </p>
+
+            <p className="about-kama">
+              {" "}
+              &bull;Encouraging the development of the child morally, physically
+              and spiritually.
+            </p>
           </div>
         </div>
       </section>
-
-      {/* <BrigadeModal isOpen={isKamaModalOpen} onClose={closeKamaModal} /> */}
     </>
   );
 }
