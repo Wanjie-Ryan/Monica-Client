@@ -20,12 +20,12 @@ function Brigade() {
   const KamaData = [
     {
       id: 1,
-      image: require("../../../Assets/homeImages/youth.jpg"),
+      image: require("../../../Assets/homeImages/kids fellowship.jpg"),
     },
 
     {
       id: 2,
-      image: require("../../../Assets/homeImages/youth2.jpg"),
+      image: require("../../../Assets/homeImages/sunday school.jpg"),
     },
 
     {
@@ -41,7 +41,7 @@ function Brigade() {
           {" "}
           <img src={brigadeLogo} alt="kama-logo" className="kamalogo" />
         </div>
-        <p className="kama-title">The Brigade</p>
+        <p className="kama-title">The Childrens' Ministries</p>
 
         <div className="kama-container">
           <div className="kama-img-cont">
@@ -68,7 +68,7 @@ function Brigade() {
           </div>
 
           <div className="kama-details">
-            <p className="kama-desc-title">About The Brigade</p>
+            <p className="kama-desc-title">Mission</p>
 
             <p className="about-kama">
               {" "}
