@@ -63,33 +63,24 @@ function Kama() {
           </div>
 
           <div className="kama-details">
-            <p className="kama-desc-title">About KAMA</p>
+            <p className="kama-desc-title">Mission</p>
 
             <p className="about-kama">
               {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
+              &bull;Helping its members grow in spirit, mind and body and be mature in faith for every good work. 
             </p>
 
             <p className="about-kama">
               {" "}
-              &bull;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Incidunt ipsum distinctio fugiat doloremque sit beatae magni
-              libero quod aspernatur eveniet, sunt cupiditate cum dolorem minima
-              dolore qui reiciendis quas atque?
+              &bull;Encouraging members to play an active role into the mission of the church
             </p>
 
-            {/* <div className="btn-container"><button className='kama-reg' onClick={openKamaModal}>Become a KAMA member?</button></div> */}
+            
           </div>
         </div>
       </section>
 
-      {/* <KamaModal
-            isOpen={isKamaModalOpen}
-            onClose={closeKamaModal}
-        /> */}
+      
     </>
   );
 }
