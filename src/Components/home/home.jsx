@@ -158,6 +158,15 @@ function Home() {
     fetchProjects();
   }, []);
 
+
+  const [showService, setshowService] =useState(false)
+
+  const handleService =()=>{
+
+    console.log(showService)
+    setshowService(!showService)
+  }
+
   return (
     <>
       <section className="home">
@@ -273,24 +282,61 @@ function Home() {
               
             </div>
 
-            <div className="mission">
-              <p className="mission-titles">Services</p>
+            <div className="mission-special" >
 
-              <p className="inner-p-marks">
-                &bull; Swahili 7:00Am - 8:00Am (Holy Communion)
-              </p>
+              <div className='inners' >
+              {/* onMouseEnter={handleService} onMouseLeave={handleService} */}
 
-              <p className="inner-p-marks">
-                &bull; Youth 8:15Am - 9:15Am 
-              </p>
+                <p className="mission-titles">Services</p>
 
-              <p className="inner-p-marks">
-                &bull; English 9:30Am - 11:15Am 
-              </p>
+                <p className="inner-p-marks">
+                  &bull; Swahili 7:00Am - 8:00Am (Holy Communion)
+                </p>
 
-              <p className="inner-p-marks">
-                &bull; Gikuyu 11:30Am - 1:00Pm 
-              </p>
+                <p className="inner-p-marks">
+                  &bull; Youth 8:15Am - 9:15Am 
+                </p>
+
+                <p className="inner-p-marks">
+                  &bull; English 9:30Am - 11:15Am 
+                </p>
+
+                <p className="inner-p-marks">
+                  &bull; Gikuyu 11:30Am - 1:00Pm 
+                </p>
+
+              </div>
+
+              
+                  <div className='upper'>
+
+
+                  
+
+                  <p className="inner-p-marks">
+                    &bull; Bible Study 8:00Am - 9:15Am (Board Room)
+                  </p>
+
+                  <p className="inner-p-marks">
+                    &bull; Holy Communion - 1st & 2nd Sunday of the month 
+                  </p>
+
+                  <p className="inner-p-marks">
+                    &bull; Gift Sunday - Every 2nd Sunday 
+                  </p>
+
+                  <p className="inner-p-marks">
+                    &bull; Baptism & Confirmation - As announced 
+                  </p>
+
+                  <p className="inner-p-marks">
+                    &bull; Churching & Admission - As announced 
+                  </p>
+
+
+
+                </div>
+              
               
             </div>
           </div>
